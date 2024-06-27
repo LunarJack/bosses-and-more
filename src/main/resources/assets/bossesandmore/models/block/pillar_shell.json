@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "bossesandmore:block/pillar_shell_front",
+    "side": "bossesandmore:block/pillar_shell_back"
+  }
+}

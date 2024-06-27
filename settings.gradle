@@ -1,0 +1,14 @@
+pluginManagement {
+	repositories {
+		maven {
+			name = 'Fabric'
+			url = 'https://maven.fabricmc.net/'
+		}
+		maven {
+			name = "KosmX's maven"
+			url = 'https://maven.kosmx.dev/'
+		}
+		mavenCentral()
+		gradlePluginPortal()
+	}
+}

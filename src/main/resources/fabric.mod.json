@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "bossesandmore",
+	"version": "${version}",
+	"name": "Bosses And More",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"LunarJack8125"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/bossesandmore/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.lunarjack.bossesandmore.BossesAndMore"
+		],
+		"client": [
+			"net.lunarjack.bossesandmore.BossesAndMoreClient"
+		],
+		"fabric-datagen": [
+			"net.lunarjack.bossesandmore.BossesAndMoreDataGenerator"
+		]
+	},
+	"mixins": [
+		"bossesandmore.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}

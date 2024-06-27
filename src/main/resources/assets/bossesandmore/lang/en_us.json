@@ -1,0 +1,38 @@
+{
+  "item.bossesandmore.pillar_core": "Core Of The Pillar",
+
+  "block.bossesandmore.pillar_shell": "Shell Of The Pillar",
+
+  "block.bossesandmore.endisite": "Endesite Ore",
+
+  "block.bossesandmore.last_rose": "The Last Rose",
+
+  "item.bossesandmore.ultimate_crystal": "The Ultimate Crystal",
+
+  "item.bossesandmore.endesite_ingot": "Endesite Ingot",
+
+  "item.bossesandmore.ender_orange": "Ender Orange",
+
+  "item.bossesandmore.endesite_clump": "Clump Of Endesite",
+
+  "item.bossesandmore.endesite_pickaxe": "Endesite Pickaxe",
+
+  "item.bossesandmore.endesite_axe": "Endesite Axe",
+
+  "item.bossesandmore.endesite_shovel": "Endesite Shovel",
+
+  "item.bossesandmore.endesite_sword": "Endesite Sword",
+
+  "item.bossesandmore.endesite_hoe": "Endesite Hoe",
+  "item.bossesandmore.endesite_helmet": "Endesite Helmet",
+  "item.bossesandmore.endesite_chestplate": "Endesite Chestplate",
+  "item.bossesandmore.endesite_leggings": "Endesite Leggings",
+  "item.bossesandmore.endesite_boots": "Endesite Boots",
+
+  "tooltip.bossesandmore.ultimate_crystal.tooltip": "A crystal containing a shard of the Ultimate power.",
+
+  "itemgroup.BAM": "Bosses And More Items",
+
+  "entity.minecraft.villager.gem_refiner": "Gem Refiner"
+
+}

@@ -1,0 +1,51 @@
+{
+  "minecraft:recipes/decorations/campfire": {
+    "criteria": {
+      "has_coal": "2024-06-24 14:34:05 -0700"
+    },
+    "done": true
+  },
+  "bossesandmore:recipes/building_blocks/pillar_shell": {
+    "criteria": {
+      "has_pillar_core": "2024-06-24 14:34:05 -0700"
+    },
+    "done": true
+  },
+  "bossesandmore:recipes/combat/ultimate_crystal": {
+    "criteria": {
+      "has_pillar_core": "2024-06-24 14:34:05 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/glow_item_frame": {
+    "criteria": {
+      "has_item_frame": "2024-06-24 14:34:05 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/crafting_table": {
+    "criteria": {
+      "unlock_right_away": "2024-06-24 14:34:05 -0700"
+    },
+    "done": true
+  },
+  "minecraft:recipes/decorations/chest": {
+    "criteria": {
+      "has_lots_of_items": "2024-06-24 14:34:05 -0700"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:plains": "2024-06-24 14:34:06 -0700"
+    },
+    "done": false
+  },
+  "minecraft:recipes/building_blocks/coal_block": {
+    "criteria": {
+      "has_coal": "2024-06-24 14:34:05 -0700"
+    },
+    "done": true
+  },
+  "DataVersion": 3465
+}

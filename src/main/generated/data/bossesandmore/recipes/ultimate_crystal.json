@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "E": {
+      "item": "bossesandmore:endesite_ingot"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "P": {
+      "item": "bossesandmore:pillar_core"
+    }
+  },
+  "pattern": [
+    "DID",
+    "IPI",
+    "DED"
+  ],
+  "result": {
+    "item": "bossesandmore:ultimate_crystal"
+  },
+  "show_notification": true
+}
