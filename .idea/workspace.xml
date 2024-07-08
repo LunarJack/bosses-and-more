@@ -5,14 +5,104 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e4092c4-2d22-49ad-800f-a3cf0a0ba476" name="Changes" comment="1.20.2">
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/lunarjack/bossesandmore/entity/ModEntities.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/lunarjack/bossesandmore/entity/animation/ModAnimations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/lunarjack/bossesandmore/entity/client/ModModelLayers.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/lunarjack/bossesandmore/entity/client/PillarModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/lunarjack/bossesandmore/entity/client/PillarRenderer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/net/lunarjack/bossesandmore/entity/custom/PillarEntity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/bossesandmore/advancements/recipes/ancient_crying_obsidian.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/bossesandmore/advancements/recipes/chainmail_quiver.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/bossesandmore/advancements/recipes/chairs/acacia_chair.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/bossesandmore/advancements/recipes/chairs/birch_chair.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/bossesandmore/advancements/recipes/chairs/dark_oak_chair.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/bossesandmore/advancements/recipes/chairs/jungle_chair.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/bossesandmore/advancements/recipes/chairs/oak_chair.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/bossesandmore/advancements/recipes/chairs/spruce_chair.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/bossesandmore/advancements/recipes/cooked_fish.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/bossesandmore/advancements/recipes/cooked_fish_from_campfire_cooking.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/bossesandmore/advancements/recipes/cooked_fish_from_smoking.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/bossesandmore/advancements/recipes/diamond_quiver.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/bossesandmore/advancements/recipes/dirt_slab.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/bossesandmore/advancements/recipes/dream_pillow.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/bossesandmore/advancements/recipes/gear.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/bossesandmore/advancements/recipes/golden_quiver.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/bossesandmore/advancements/recipes/iron_quiver.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/bossesandmore/advancements/recipes/leather_quiver.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/bossesandmore/advancements/recipes/netherite_quiver.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/bossesandmore/advancements/recipes/pink_dye_from_paeonia.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/bossesandmore/advancements/recipes/quiver.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/bossesandmore/advancements/recipes/red_dye_from_rose.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/bossesandmore/advancements/recipes/rotational_converter.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/bossesandmore/advancements/recipes/ruby.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/bossesandmore/advancements/recipes/ruby_block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/bossesandmore/advancements/recipes/ruby_from_blasting.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/bossesandmore/advancements/recipes/ruby_from_smelting.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/bossesandmore/advancements/recipes/scarecrow.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/bossesandmore/advancements/recipes/spikes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/bossesandmore/advancements/recipes/studded_boots.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/bossesandmore/advancements/recipes/studded_chestplate.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/bossesandmore/advancements/recipes/studded_helmet.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/bossesandmore/advancements/recipes/studded_leggings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/bossesandmore/advancements/recipes/studded_quiver.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/bossesandmore/advancements/recipes/tables/acacia_table.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/bossesandmore/advancements/recipes/tables/birch_table.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/bossesandmore/advancements/recipes/tables/dark_oak_table.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/bossesandmore/advancements/recipes/tables/jungle_table.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/bossesandmore/advancements/recipes/tables/oak_table.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/bossesandmore/advancements/recipes/tables/spruce_table.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/bossesandmore/recipes/ancient_crying_obsidian.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/bossesandmore/recipes/chairs/acacia_chair.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/bossesandmore/recipes/chairs/birch_chair.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/bossesandmore/recipes/chairs/dark_oak_chair.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/bossesandmore/recipes/chairs/jungle_chair.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/bossesandmore/recipes/chairs/oak_chair.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/bossesandmore/recipes/chairs/spruce_chair.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/bossesandmore/recipes/cooked_fish.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/bossesandmore/recipes/cooked_fish_from_campfire_cooking.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/bossesandmore/recipes/cooked_fish_from_smoking.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/bossesandmore/recipes/dirt_slab.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/bossesandmore/recipes/dream_pillow.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/bossesandmore/recipes/gear.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/bossesandmore/recipes/pink_dye_from_paeonia.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/bossesandmore/recipes/quiver.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/bossesandmore/recipes/quiver/chainmail_quiver.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/bossesandmore/recipes/quiver/diamond_quiver.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/bossesandmore/recipes/quiver/golden_quiver.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/bossesandmore/recipes/quiver/iron_quiver.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/bossesandmore/recipes/quiver/leather_quiver.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/bossesandmore/recipes/quiver/netherite_quiver.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/bossesandmore/recipes/quiver/plate_quiver.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/bossesandmore/recipes/quiver/studded_quiver.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/bossesandmore/recipes/red_dye_from_rose.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/bossesandmore/recipes/rotational_converter.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/bossesandmore/recipes/ruby.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/bossesandmore/recipes/ruby_block.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/bossesandmore/recipes/ruby_from_blasting.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/bossesandmore/recipes/ruby_from_smelting.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/bossesandmore/recipes/scarecrow.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/bossesandmore/recipes/spikes.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/bossesandmore/recipes/studded_boots.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/bossesandmore/recipes/studded_chestplate.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/bossesandmore/recipes/studded_helmet.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/bossesandmore/recipes/studded_leggings.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/bossesandmore/recipes/tables/acacia_table.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/bossesandmore/recipes/tables/birch_table.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/bossesandmore/recipes/tables/dark_oak_table.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/bossesandmore/recipes/tables/jungle_table.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/bossesandmore/recipes/tables/oak_table.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/bossesandmore/recipes/tables/spruce_table.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/bossesandmore/recipes/wool/bright_green_carpet.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/bossesandmore/recipes/wool/dark_pink_carpet.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/bossesandmore/recipes/wool/lavender_carpet.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/bossesandmore/recipes/wool/sky_blue_carpet.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/bossesandmore/recipes/wool/slate_blue_carpet.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/data/bossesandmore/recipes/wool/spring_green_carpet.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/lunarjack/bossesandmore/BossesAndMore.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/lunarjack/bossesandmore/BossesAndMore.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/.cache/132583a155c5d372c78546bd7b9d6b5471a7c081" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/.cache/132583a155c5d372c78546bd7b9d6b5471a7c081" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/.cache/2484474954666e29b03b0386562a4e4ac2b215b5" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/.cache/2484474954666e29b03b0386562a4e4ac2b215b5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/.cache/4cfd4bfa06b25e3145e35bb22407db525ee770f8" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/.cache/4cfd4bfa06b25e3145e35bb22407db525ee770f8" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/.cache/6ffacbd0a98e1f6afcc97f39001ab88ce2a61dfd" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/.cache/6ffacbd0a98e1f6afcc97f39001ab88ce2a61dfd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/.cache/7bd558801dd75200db88663f42b7806fbc4b08d3" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/.cache/7bd558801dd75200db88663f42b7806fbc4b08d3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/.cache/c92ce47eed0db9e6df3d058a04f502f7e98dd26c" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/.cache/c92ce47eed0db9e6df3d058a04f502f7e98dd26c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lunarjack/bossesandmore/entity/client/ModModelLayers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/lunarjack/bossesandmore/entity/client/ModModelLayers.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lunarjack/bossesandmore/entity/client/PillarRenderer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/lunarjack/bossesandmore/entity/client/PillarRenderer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lunarjack/bossesandmore/entity/custom/PillarEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/lunarjack/bossesandmore/entity/custom/PillarEntity.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +163,9 @@
     &quot;accountId&quot;: &quot;e6fb62f0-640f-4b83-a9b4-f56a991d1e17&quot;
   }
 }</component>
+  <component name="HierarchyBrowserManager">
+    <option name="SCOPE" value="All" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
 }</component>
@@ -81,31 +174,38 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.Data Generation.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Minecraft Client.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.Build bosses-and-more-1.20.1.executor&quot;: &quot;Run&quot;,
-    &quot;Gradle.bosses-and-more-1.20.1 [runClient].executor&quot;: &quot;Run&quot;,
-    &quot;JavaVariableFindUsagesOptions.isSearchForAccessors&quot;: &quot;true&quot;,
-    &quot;JavaVariableFindUsagesOptions.isSearchForTextOccurrences&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/Lennon/Downloads/bosses-and-more-1.20.1/src/main/resources/assets/bossesandmore/blockstates&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Data Generation.executor": "Run",
+    "Application.Minecraft Client.executor": "Run",
+    "Downloaded.Files.Path.Enabled": "false",
+    "Gradle.Build bosses-and-more-1.20.1.executor": "Run",
+    "Gradle.bosses-and-more-1.20.1 [runClient].executor": "Run",
+    "JavaVariableFindUsagesOptions.isSearchForAccessors": "true",
+    "JavaVariableFindUsagesOptions.isSearchForTextOccurrences": "true",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/Lennon/Downloads/bosses-and-more-1.20.1/src/main/resources/data/bossesandmore",
+    "project.structure.last.edited": "Libraries",
+    "project.structure.proportion": "0.15136719",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/src/main/resources/assets/bossesandmore/blockstates" />
-      <recent name="$PROJECT_DIR$/src/main/resources/assets/bossesandmore/models/item" />
-      <recent name="$PROJECT_DIR$/src/main/resources/assets/bossesandmore/models/block" />
+      <recent name="$PROJECT_DIR$/src/main/resources/data/bossesandmore" />
+      <recent name="$PROJECT_DIR$/src/main/resources/assets/bossesandmore/models" />
       <recent name="$PROJECT_DIR$/src/main/resources/data/bossesandmore/recipes" />
-      <recent name="$PROJECT_DIR$/src/main/generated/assets/bossesandmore/models/block" />
+      <recent name="$PROJECT_DIR$/src/main/generated/data/bossesandmore/advancements/recipes" />
+      <recent name="$PROJECT_DIR$/src/main/resources/assets/bossesandmore/blockstates" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="net.lunarjack.bossesandmore.entity" />
     </key>
   </component>
   <component name="RunManager" selected="Application.Data Generation">
@@ -154,7 +254,15 @@
       <option name="project" value="LOCAL" />
       <updated>1719418021049</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="1.20.2">
+      <option name="closed" value="true" />
+      <created>1719613429857</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1719613429857</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

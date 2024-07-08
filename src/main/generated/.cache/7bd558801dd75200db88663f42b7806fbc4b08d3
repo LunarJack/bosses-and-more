@@ -1,4 +1,4 @@
-// 1.20.2	2024-06-27T15:28:20.268934	Bosses And More/Model Definitions
+// 1.20.2	2024-07-07T09:40:41.383973	Bosses And More/Model Definitions
 45c93f25626f2c533b725782f8430ae8fc0c3391 assets/bossesandmore/models/item/endesite_helmet_redstone_trim.json
 cbac963c00ba22988336f72f368b289e245b15f2 assets/bossesandmore/models/block/endisite.json
 e6e8e2570617ba5b2be2cf664edb4b5edb327b98 assets/bossesandmore/models/item/endesite_leggings_copper_trim.json
@@ -7,10 +7,10 @@ e6e8e2570617ba5b2be2cf664edb4b5edb327b98 assets/bossesandmore/models/item/endesi
 3575e6a5e54361abc36157b57dea7c47f525ba08 assets/bossesandmore/models/item/endesite_helmet_iron_trim.json
 ec17a94f7455958339755057a55db2b448a5ba85 assets/bossesandmore/models/item/endesite_ingot.json
 904fb27892b4bcfd2aef385d4d210ab129a05939 assets/bossesandmore/blockstates/potted_last_rose.json
-e8ee87f1a1fbce2fb11185ac604f205548ec714c assets/bossesandmore/models/item/endesite_chestplate_redstone_trim.json
 1e890fb04e793e85dc7f8a5038bbcadd994fbe96 assets/bossesandmore/models/item/endesite_boots_amethyst_trim.json
-ef847d673134e6ba241eaab958c75fbbb74f9678 assets/bossesandmore/models/item/endesite_chestplate.json
+e8ee87f1a1fbce2fb11185ac604f205548ec714c assets/bossesandmore/models/item/endesite_chestplate_redstone_trim.json
 1950f2c7b866bdc62360ddcb530fbaf6866933f8 assets/bossesandmore/models/item/endesite_chestplate_copper_trim.json
+ef847d673134e6ba241eaab958c75fbbb74f9678 assets/bossesandmore/models/item/endesite_chestplate.json
 27aa6bf89bbfd4fe723d05fdeb8263cc15f07a7b assets/bossesandmore/blockstates/endisite.json
 7aecc4ef04fa91c6e821bf1323099e7d1d0ba6c4 assets/bossesandmore/models/item/endesite_helmet_emerald_trim.json
 eaa4d47a7baa696834488cf8da260a35727005b9 assets/bossesandmore/models/item/endesite_chestplate_quartz_trim.json

@@ -1,0 +1,15 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "rediscovered:studded_chestplate"
+        },
+        {
+            "item": "rediscovered:quiver"
+        }
+    ],
+    "result": {
+        "item": "rediscovered:studded_quiver",
+        "count": 1
+    }
+}

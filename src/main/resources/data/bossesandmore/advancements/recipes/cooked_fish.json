@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "rediscovered:cooked_fish"
+    ]
+  },
+  "criteria": {
+    "has_cod": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "rediscovered:raw_fish"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "rediscovered:cooked_fish"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_cod",
+      "has_the_recipe"
+    ]
+  ]
+}

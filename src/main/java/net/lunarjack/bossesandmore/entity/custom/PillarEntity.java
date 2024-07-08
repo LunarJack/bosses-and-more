@@ -1,15 +1,15 @@
 package net.lunarjack.bossesandmore.entity.custom;
 
 import net.minecraft.entity.EntityType;
+import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.ai.RangedAttackMob;
 import net.minecraft.entity.ai.goal.Goal;
 import net.minecraft.entity.attribute.DefaultAttributeContainer;
 import net.minecraft.entity.attribute.EntityAttributes;
 import net.minecraft.entity.mob.HostileEntity;
-import net.minecraft.entity.mob.MobEntity;
 import net.minecraft.world.World;
 
-public class PillarEntity extends HostileEntity {
+public class PillarEntity extends HostileEntity implements RangedAttackMob {
     public PillarEntity(EntityType<? extends HostileEntity> entityType, World world) {
         super(entityType, world);
     }
@@ -27,6 +27,12 @@ public class PillarEntity extends HostileEntity {
                 .add(EntityAttributes.GENERIC_KNOCKBACK_RESISTANCE, 1)
                 .add(EntityAttributes.GENERIC_ARMOR, 6);
     }
+
+    @Override
+    public void shootAt(LivingEntity target, float pullProgress) {
+        
+    }
+
     class FlyAtHalfHealthGoal extends Goal {
         public FlyAtHalfHealthGoal() {
 

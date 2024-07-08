@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "group": "wooden_chairs",
+    "pattern": [
+        "#  ",
+        "###",
+        "# #"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:spruce_planks"
+        }
+    },
+    "result": {
+        "item": "rediscovered:spruce_chair",
+        "count": 1
+    }
+}

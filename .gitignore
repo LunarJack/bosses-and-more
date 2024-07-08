@@ -1,3 +1,4 @@
 # Project exclude paths
 /.gradle/
 /build/
+/rediscovered-1.20.x/

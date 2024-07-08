@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "rediscovered:studded_quiver"
+    ]
+  },
+  "criteria": {
+    "has_rabbit_hide": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "rediscovered:quiver"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "rediscovered:studded_quiver"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_rabbit_hide",
+      "has_the_recipe"
+    ]
+  ]
+}

@@ -1,4 +1,4 @@
-// 1.20.2	2024-06-27T15:28:20.266523	Bosses And More/Tags for minecraft:block
+// 1.20.2	2024-07-07T09:40:41.383444	Bosses And More/Tags for minecraft:block
 fc8bc38b1a00ffa11fef3a0abb61e243fdd49323 data/bossesandmore/tags/blocks/block_boss_drops.json
 fc8bc38b1a00ffa11fef3a0abb61e243fdd49323 data/fabric/tags/blocks/needs_tool_level-6.json
 f181da8585ada6a92d2945ef67cae612eb1a61ed data/fabric/tags/blocks/needs_tool_level-4.json

@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "rewards": {
+    "recipes": [
+      "rediscovered:red_dye_from_paeonia"
+    ]
+  },
+  "criteria": {
+    "has_red_flower": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "rediscovered:paeonia"
+          }
+        ]
+      }
+    },
+    "has_the_recipe": {
+      "trigger": "minecraft:recipe_unlocked",
+      "conditions": {
+        "recipe": "rediscovered:red_dye_from_paeonia"
+      }
+    }
+  },
+  "requirements": [
+    [
+      "has_red_flower",
+      "has_the_recipe"
+    ]
+  ]
+}
