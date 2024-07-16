@@ -16,6 +16,7 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addDrop(ModBlocks.PILLAR_SHELL);
         addDrop(ModBlocks.LAST_ROSE);
         addDrop(ModBlocks.GLOWING_OBSIDIAN);
+        addDrop(ModBlocks.FULL_GRASS_BLOCK);
         addPottedPlantDrops(ModBlocks.POTTED_LAST_ROSE);
         addDrop(ModBlocks.BLUE_ROSE);
         addPottedPlantDrops(ModBlocks.POTTED_BLUE_ROSE);

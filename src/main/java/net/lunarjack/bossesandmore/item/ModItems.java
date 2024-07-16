@@ -38,6 +38,9 @@ public class ModItems {
     }
     private static void addItemsToNaturalItemGroup(FabricItemGroupEntries entries) {
         entries.add(ENDISITE);
+        entries.add(BLUE_ROSE);
+        entries.add(LAST_ROSE);
+        entries.add(FULL_GRASS_BLOCK);
     }
     private static void addItemsToFoodAndDrinkItemGroup(FabricItemGroupEntries entries) {
         entries.add(ENDER_ORANGE);

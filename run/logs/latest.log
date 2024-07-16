@@ -1,15 +1,13 @@
-[17:35:41] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.20.2 with Fabric Loader 0.15.11
-[17:35:41] [ForkJoinPool-1-worker-1/WARN] (FabricLoader/Metadata) Mod bossesandmore uses the version Closed Alpha 0.1 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'Closed Alpha 0'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[17:35:41] [main/INFO] (FabricLoader) Loading 57 mods:
-	- bossesandmore Closed Alpha 0.1
+[07:29:27] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.20.2 with Fabric Loader 0.15.11
+[07:29:27] [ForkJoinPool-1-worker-1/WARN] (FabricLoader/Metadata) Mod bossesandmore uses the version Alpha 0.11 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'Alpha 0'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[07:29:28] [main/INFO] (FabricLoader) Loading 43 mods:
+	- bossesandmore Alpha 0.11
 	- fabric-api 0.91.6+1.20.2
 	- fabric-api-base 0.4.33+fce67b32a0
 	- fabric-api-lookup-api-v1 1.6.43+b1792f7da0
 	- fabric-biome-api-v1 13.0.14+b1792f7da0
 	- fabric-block-api-v1 1.0.12+73761d2ea0
 	- fabric-block-view-api-v2 1.0.1+73761d2ea0
-	- fabric-blockrenderlayer-v1 1.1.43+f4b7e424a0
-	- fabric-client-tags-api-v1 1.1.4+86b12645a0
 	- fabric-command-api-v1 1.2.37+f71b366fa0
 	- fabric-command-api-v2 2.2.16+b1792f7da0
 	- fabric-commands-v0 0.2.54+df3654b3a0
@@ -26,104 +24,950 @@
 	- fabric-gametest-api-v1 1.2.16+b1792f7da0
 	- fabric-item-api-v1 2.1.33+b1792f7da0
 	- fabric-item-group-api-v1 4.0.15+e3d2bf3fa0
-	- fabric-key-binding-api-v1 1.0.38+f4b7e424a0
-	- fabric-keybindings-v0 0.2.36+df3654b3a0
 	- fabric-lifecycle-events-v1 2.2.28+c8b10480a0
 	- fabric-loot-api-v2 2.1.1+3ba460fba0
 	- fabric-message-api-v1 6.0.2+e3d2bf3fa0
 	- fabric-mining-level-api-v1 2.1.56+f4b7e424a0
-	- fabric-model-loading-api-v1 1.0.6+b1792f7da0
-	- fabric-models-v0 0.4.5+9386d8a7a0
 	- fabric-networking-api-v1 3.1.5+f4be560ba0
 	- fabric-object-builder-api-v1 12.1.2+2ff98d3ba0
 	- fabric-particles-v1 1.1.4+f4b7e424a0
 	- fabric-recipe-api-v1 2.0.14+52b3ebe5a0
 	- fabric-registry-sync-v0 4.0.12+b1792f7da0
-	- fabric-renderer-api-v1 3.2.1+2034447ca0
-	- fabric-renderer-indigo 1.5.1+2034447ca0
-	- fabric-renderer-registries-v1 3.2.49+df3654b3a0
 	- fabric-rendering-data-attachment-v1 0.3.39+73761d2ea0
 	- fabric-rendering-fluids-v1 3.0.30+f4b7e424a0
-	- fabric-rendering-v0 1.1.52+df3654b3a0
-	- fabric-rendering-v1 3.0.11+b1792f7da0
 	- fabric-resource-conditions-api-v1 2.3.11+239dafd8a0
 	- fabric-resource-loader-v0 0.11.12+b1792f7da0
-	- fabric-screen-api-v1 2.0.12+b1792f7da0
 	- fabric-screen-handler-api-v1 1.3.47+b1792f7da0
-	- fabric-sound-api-v1 1.0.14+f4b7e424a0
 	- fabric-transfer-api-v1 3.3.13+4944b5a5a0
 	- fabric-transitive-access-wideners-v1 5.0.3+fce67b32a0
 	- fabricloader 0.15.11
 	- java 21
 	- minecraft 1.20.2
 	- mixinextras 0.3.5
-	- modmenu 8.0.1
-[17:35:43] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/Users/Lennon/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.13.3+mixin.0.8.5/9527e6b0d2449408958fd1302594dc65ec5ade9c/sponge-mixin-0.13.3+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
-[17:35:43] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
-[17:35:43] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_16
-[17:35:43] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
-[17:35:43] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
-[17:35:46] [Datafixer Bootstrap/INFO] (Minecraft) 192 Datafixer optimizations took 73 milliseconds
-[17:35:47] [Render thread/INFO] (Minecraft) Environment: Environment[accountsHost=https://api.mojang.com, sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[17:35:47] [Render thread/ERROR] (Minecraft) Failed to verify authentication
-com.mojang.authlib.exceptions.InvalidCredentialsException: Status: 401
-	at com.mojang.authlib.exceptions.MinecraftClientHttpException.toAuthenticationException(MinecraftClientHttpException.java:59) ~[authlib-5.0.47.jar:?]
-	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:159) ~[authlib-5.0.47.jar:?]
-	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.<init>(YggdrasilUserApiService.java:53) ~[authlib-5.0.47.jar:?]
-	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.createUserApiService(YggdrasilAuthenticationService.java:55) ~[authlib-5.0.47.jar:?]
-	at net.minecraft.client.MinecraftClient.createUserApiService(MinecraftClient.java:792) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
-	at net.minecraft.client.MinecraftClient.<init>(MinecraftClient.java:510) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
-	at net.minecraft.client.main.Main.main(Main.java:193) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+[07:29:28] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/Users/Lennon/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.13.3+mixin.0.8.5/9527e6b0d2449408958fd1302594dc65ec5ade9c/sponge-mixin-0.13.3+mixin.0.8.5.jar Service=Knot/Fabric Env=SERVER
+[07:29:28] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[07:29:28] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
+[07:29:28] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[07:29:31] [main/INFO] (fabric-networking-api-v1) Force Packet Serialization is enabled to mimic remote connection on single player, this is the default behaviour on dev env. Add -Dfabric-api.networking.force-packet-serialization=false JVM arg to disable it.
+[07:29:31] [main/INFO] (bossesandmore) Registering Item Groups for bossesandmore
+[07:29:31] [main/INFO] (bossesandmore) Registering Mod Items for bossesandmore
+[07:29:31] [main/INFO] (bossesandmore) Registering ModBlocks for bossesandmore
+[07:29:31] [main/INFO] (bossesandmore) Registering Villagers bossesandmore
+[07:29:31] [main/INFO] (bossesandmore) Registering Sounds for bossesandmore
+[07:29:31] [main/INFO] (Minecraft) Environment: Environment[accountsHost=https://api.mojang.com, sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[07:29:32] [main/ERROR] (Minecraft) Parsing error loading recipe bossesandmore:tables/jungle_table
+com.google.gson.JsonParseException: Crafting result must not be minecraft:air
+	at net.minecraft.util.Util.getResult(Util.java:1066) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:251) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:69) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:57) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.resource.SinglePreparationResourceReloader.method_18790(SinglePreparationResourceReloader.java:26) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.resource.SimpleResourceReload.method_18365(SimpleResourceReload.java:98) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:1013) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:992) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.server.Main.main(Main.java:149) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
 	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.11.jar:?]
 	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.11.jar:?]
-	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.11.jar:?]
 	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
-Caused by: com.mojang.authlib.exceptions.MinecraftClientHttpException: Status: 401
-	at com.mojang.authlib.minecraft.client.MinecraftClient.readInputStream(MinecraftClient.java:100) ~[authlib-5.0.47.jar:?]
-	at com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:57) ~[authlib-5.0.47.jar:?]
-	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:130) ~[authlib-5.0.47.jar:?]
-	... 9 more
-[17:35:47] [Render thread/INFO] (Minecraft) Setting user: Player698
-[17:35:47] [Render thread/INFO] (fabric-networking-api-v1) Force Packet Serialization is enabled to mimic remote connection on single player, this is the default behaviour on dev env. Add -Dfabric-api.networking.force-packet-serialization=false JVM arg to disable it.
-[17:35:47] [Render thread/INFO] (bossesandmore) Registering Item Groups for bossesandmore
-[17:35:47] [Render thread/INFO] (bossesandmore) Registering Mod Items for bossesandmore
-[17:35:47] [Render thread/INFO] (bossesandmore) Registering ModBlocks for bossesandmore
-[17:35:47] [Render thread/INFO] (bossesandmore) Registering Villagers bossesandmore
-[17:35:47] [Render thread/INFO] (bossesandmore) Registering Sounds for bossesandmore
-[17:35:47] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
-[17:35:47] [Worker-Main-2/INFO] (Mod Menu/Update Checker) Checking mod updates...
-[17:35:47] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.3.2-snapshot
-[17:35:47] [Render thread/INFO] (Minecraft) [STDERR]: [LWJGL] [ThreadLocalUtil] Unsupported JNI version detected, this may result in a crash. Please inform LWJGL developers.
-[17:35:48] [Render thread/INFO] (Minecraft) Reloading ResourceManager: vanilla, fabric (fabric-transfer-api-v1, fabric-api-base, fabric-command-api-v1, fabric-particles-v1, fabric-renderer-indigo, fabric-screen-api-v1, fabric-registry-sync-v0, fabric-entity-events-v1, fabric-data-generation-api-v1, fabric-item-api-v1, fabric-renderer-registries-v1, modmenu, fabricloader, fabric-events-interaction-v0, fabric-lifecycle-events-v1, fabric-item-group-api-v1, fabric-renderer-api-v1, fabric-command-api-v2, fabric-resource-loader-v0, fabric-content-registries-v0, fabric-transitive-access-wideners-v1, fabric-client-tags-api-v1, fabric-events-lifecycle-v0, fabric-block-api-v1, fabric-api, fabric-commands-v0, fabric-rendering-v0, fabric-game-rule-api-v1, fabric-mining-level-api-v1, fabric-api-lookup-api-v1, fabric-biome-api-v1, fabric-sound-api-v1, fabric-rendering-fluids-v1, fabric-recipe-api-v1, fabric-gametest-api-v1, fabric-screen-handler-api-v1, fabric-loot-api-v2, fabric-containers-v0, fabric-object-builder-api-v1, fabric-rendering-v1, fabric-key-binding-api-v1, fabric-model-loading-api-v1, fabric-dimensions-v1, fabric-block-view-api-v2, fabric-message-api-v1, fabric-keybindings-v0, fabric-models-v0, bossesandmore, fabric-resource-conditions-api-v1, fabric-networking-api-v1, fabric-blockrenderlayer-v1, fabric-convention-tags-v1, fabric-rendering-data-attachment-v1, fabric-crash-report-info-v1)
-[17:35:48] [Worker-Main-8/INFO] (Minecraft) Found unifont_all_no_pua-15.0.06.hex, loading
-[17:35:49] [Worker-Main-5/WARN] (Minecraft) Unable to load model: 'bossesandmore:opal_clump#inventory' referenced from: bossesandmore:opal_clump#inventory: java.io.FileNotFoundException: bossesandmore:models/item/opal_clump.json
-[17:35:49] [Worker-Main-5/WARN] (Minecraft) Unable to load model: 'bossesandmore:topaz_clump#inventory' referenced from: bossesandmore:topaz_clump#inventory: java.io.FileNotFoundException: bossesandmore:models/item/topaz_clump.json
-[17:35:49] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.goat_horn.play
-[17:35:49] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[17:35:49] [Render thread/INFO] (Minecraft) OpenAL initialized on device MacBook Air Speakers
-[17:35:49] [Render thread/INFO] (Minecraft) Sound engine started
-[17:35:49] [Render thread/INFO] (Minecraft) Created: 1024x512x4 minecraft:textures/atlas/blocks.png-atlas
-[17:35:49] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
-[17:35:49] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[17:35:49] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[17:35:49] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
-[17:35:49] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[17:35:49] [Render thread/INFO] (Minecraft) Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
-[17:35:49] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[17:35:49] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[17:35:50] [Render thread/WARN] (Minecraft) Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[17:35:50] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
-[17:35:50] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[17:35:50] [Render thread/INFO] (Minecraft) Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[17:35:50] [Render thread/INFO] (Minecraft) Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
-[17:35:50] [IO-Worker-1/INFO] (Minecraft) Could not authorize you against Realms server: Invalid session id
-[17:35:50] [IO-Worker-1/ERROR] (Minecraft) Couldn't connect to realms
-net.minecraft.client.realms.exception.RealmsServiceException: Realms authentication error with message 'Invalid session id'
-	at net.minecraft.client.realms.RealmsClient.execute(RealmsClient.java:397) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
-	at net.minecraft.client.realms.RealmsClient.clientCompatible(RealmsClient.java:186) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
-	at net.minecraft.client.realms.RealmsAvailability.method_52627(RealmsAvailability.java:43) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
-	at java.util.concurrent.CompletableFuture$AsyncSupply.run(CompletableFuture.java:1768) ~[?:?]
-	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
-	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
-	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[17:36:45] [Render thread/INFO] (Minecraft) Stopping!
+[07:29:32] [main/ERROR] (Minecraft) Parsing error loading recipe bossesandmore:quiver/studded_quiver
+com.google.gson.JsonParseException: No key tag in MapLike[{"item":"rediscovered:quiver"}]; Empty ingredient not allowed here; Not a json array: {"item":"rediscovered:quiver"}; Input does not contain a key [fabric:type]: MapLike[{"item":"rediscovered:quiver"}]; No key tag in MapLike[{"item":"rediscovered:studded_chestplate"}]; Empty ingredient not allowed here; Not a json array: {"item":"rediscovered:studded_chestplate"}; Input does not contain a key [fabric:type]: MapLike[{"item":"rediscovered:studded_chestplate"}]; No ingredients for shapeless recipe; Crafting result must not be minecraft:air
+	at net.minecraft.util.Util.getResult(Util.java:1066) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:251) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:69) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:57) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.resource.SinglePreparationResourceReloader.method_18790(SinglePreparationResourceReloader.java:26) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.resource.SimpleResourceReload.method_18365(SimpleResourceReload.java:98) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:1013) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:992) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.server.Main.main(Main.java:149) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
+[07:29:32] [main/ERROR] (Minecraft) Parsing error loading recipe bossesandmore:quiver/chainmail_quiver
+com.google.gson.JsonParseException: No key tag in MapLike[{"item":"rediscovered:quiver"}]; Empty ingredient not allowed here; Not a json array: {"item":"rediscovered:quiver"}; Input does not contain a key [fabric:type]: MapLike[{"item":"rediscovered:quiver"}]; Crafting result must not be minecraft:air
+	at net.minecraft.util.Util.getResult(Util.java:1066) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:251) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:69) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:57) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.resource.SinglePreparationResourceReloader.method_18790(SinglePreparationResourceReloader.java:26) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.resource.SimpleResourceReload.method_18365(SimpleResourceReload.java:98) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:1013) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:992) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.server.Main.main(Main.java:149) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
+[07:29:32] [main/ERROR] (Minecraft) Parsing error loading recipe bossesandmore:ruby_from_blasting
+com.google.gson.JsonParseException: No key tag in MapLike[{"item":"rediscovered:ruby_ore"}]; Empty ingredient not allowed here; Not a json array: {"item":"rediscovered:ruby_ore"}; Input does not contain a key [fabric:type]: MapLike[{"item":"rediscovered:ruby_ore"}]
+	at net.minecraft.util.Util.getResult(Util.java:1066) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:251) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:69) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:57) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.resource.SinglePreparationResourceReloader.method_18790(SinglePreparationResourceReloader.java:26) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.resource.SimpleResourceReload.method_18365(SimpleResourceReload.java:98) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:1013) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:992) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.server.Main.main(Main.java:149) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
+[07:29:32] [main/ERROR] (Minecraft) Parsing error loading recipe bossesandmore:cooked_fish_from_smoking
+com.google.gson.JsonParseException: No key tag in MapLike[{"item":"rediscovered:raw_fish"}]; Empty ingredient not allowed here; Not a json array: {"item":"rediscovered:raw_fish"}; Input does not contain a key [fabric:type]: MapLike[{"item":"rediscovered:raw_fish"}]
+	at net.minecraft.util.Util.getResult(Util.java:1066) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:251) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:69) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:57) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.resource.SinglePreparationResourceReloader.method_18790(SinglePreparationResourceReloader.java:26) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.resource.SimpleResourceReload.method_18365(SimpleResourceReload.java:98) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:1013) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:992) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.server.Main.main(Main.java:149) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
+[07:29:32] [main/ERROR] (Minecraft) Parsing error loading recipe bossesandmore:quiver/plate_quiver
+com.google.gson.JsonParseException: No key tag in MapLike[{"item":"rediscovered:quiver"}]; Empty ingredient not allowed here; Not a json array: {"item":"rediscovered:quiver"}; Input does not contain a key [fabric:type]: MapLike[{"item":"rediscovered:quiver"}]; No key tag in MapLike[{"item":"rediscovered:plate_chestplate"}]; Empty ingredient not allowed here; Not a json array: {"item":"rediscovered:plate_chestplate"}; Input does not contain a key [fabric:type]: MapLike[{"item":"rediscovered:plate_chestplate"}]; No ingredients for shapeless recipe; Crafting result must not be minecraft:air
+	at net.minecraft.util.Util.getResult(Util.java:1066) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:251) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:69) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:57) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.resource.SinglePreparationResourceReloader.method_18790(SinglePreparationResourceReloader.java:26) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.resource.SimpleResourceReload.method_18365(SimpleResourceReload.java:98) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:1013) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:992) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.server.Main.main(Main.java:149) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
+[07:29:32] [main/ERROR] (Minecraft) Parsing error loading recipe bossesandmore:tables/acacia_table
+com.google.gson.JsonParseException: Crafting result must not be minecraft:air
+	at net.minecraft.util.Util.getResult(Util.java:1066) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:251) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:69) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:57) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.resource.SinglePreparationResourceReloader.method_18790(SinglePreparationResourceReloader.java:26) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.resource.SimpleResourceReload.method_18365(SimpleResourceReload.java:98) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:1013) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:992) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.server.Main.main(Main.java:149) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
+[07:29:32] [main/ERROR] (Minecraft) Parsing error loading recipe bossesandmore:tables/dark_oak_table
+com.google.gson.JsonParseException: Crafting result must not be minecraft:air
+	at net.minecraft.util.Util.getResult(Util.java:1066) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:251) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:69) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:57) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.resource.SinglePreparationResourceReloader.method_18790(SinglePreparationResourceReloader.java:26) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.resource.SimpleResourceReload.method_18365(SimpleResourceReload.java:98) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:1013) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:992) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.server.Main.main(Main.java:149) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
+[07:29:32] [main/ERROR] (Minecraft) Parsing error loading recipe bossesandmore:quiver/leather_quiver
+com.google.gson.JsonParseException: No key tag in MapLike[{"item":"rediscovered:quiver"}]; Empty ingredient not allowed here; Not a json array: {"item":"rediscovered:quiver"}; Input does not contain a key [fabric:type]: MapLike[{"item":"rediscovered:quiver"}]; Crafting result must not be minecraft:air
+	at net.minecraft.util.Util.getResult(Util.java:1066) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:251) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:69) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:57) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.resource.SinglePreparationResourceReloader.method_18790(SinglePreparationResourceReloader.java:26) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.resource.SimpleResourceReload.method_18365(SimpleResourceReload.java:98) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:1013) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:992) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.server.Main.main(Main.java:149) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
+[07:29:32] [main/ERROR] (Minecraft) Parsing error loading recipe bossesandmore:chairs/oak_chair
+com.google.gson.JsonParseException: Crafting result must not be minecraft:air
+	at net.minecraft.util.Util.getResult(Util.java:1066) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:251) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:69) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:57) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.resource.SinglePreparationResourceReloader.method_18790(SinglePreparationResourceReloader.java:26) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.resource.SimpleResourceReload.method_18365(SimpleResourceReload.java:98) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:1013) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:992) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.server.Main.main(Main.java:149) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
+[07:29:32] [main/ERROR] (Minecraft) Parsing error loading recipe bossesandmore:tables/oak_table
+com.google.gson.JsonParseException: Crafting result must not be minecraft:air
+	at net.minecraft.util.Util.getResult(Util.java:1066) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:251) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:69) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:57) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.resource.SinglePreparationResourceReloader.method_18790(SinglePreparationResourceReloader.java:26) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.resource.SimpleResourceReload.method_18365(SimpleResourceReload.java:98) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:1013) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:992) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.server.Main.main(Main.java:149) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
+[07:29:32] [main/ERROR] (Minecraft) Parsing error loading recipe bossesandmore:ruby
+com.google.gson.JsonParseException: No key tag in MapLike[{"item":"rediscovered:ruby_block"}]; Empty ingredient not allowed here; Not a json array: {"item":"rediscovered:ruby_block"}; Input does not contain a key [fabric:type]: MapLike[{"item":"rediscovered:ruby_block"}]; No ingredients for shapeless recipe; Crafting result must not be minecraft:air
+	at net.minecraft.util.Util.getResult(Util.java:1066) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:251) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:69) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:57) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.resource.SinglePreparationResourceReloader.method_18790(SinglePreparationResourceReloader.java:26) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.resource.SimpleResourceReload.method_18365(SimpleResourceReload.java:98) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:1013) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:992) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.server.Main.main(Main.java:149) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
+[07:29:32] [main/ERROR] (Minecraft) Parsing error loading recipe bossesandmore:scarecrow
+com.google.gson.JsonParseException: Crafting result must not be minecraft:air
+	at net.minecraft.util.Util.getResult(Util.java:1066) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:251) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:69) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:57) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.resource.SinglePreparationResourceReloader.method_18790(SinglePreparationResourceReloader.java:26) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.resource.SimpleResourceReload.method_18365(SimpleResourceReload.java:98) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:1013) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:992) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.server.Main.main(Main.java:149) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
+[07:29:32] [main/ERROR] (Minecraft) Parsing error loading recipe bossesandmore:studded_chestplate
+com.google.gson.JsonParseException: Crafting result must not be minecraft:air
+	at net.minecraft.util.Util.getResult(Util.java:1066) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:251) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:69) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:57) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.resource.SinglePreparationResourceReloader.method_18790(SinglePreparationResourceReloader.java:26) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.resource.SimpleResourceReload.method_18365(SimpleResourceReload.java:98) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:1013) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:992) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.server.Main.main(Main.java:149) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
+[07:29:32] [main/ERROR] (Minecraft) Parsing error loading recipe bossesandmore:quiver/netherite_quiver
+com.google.gson.JsonParseException: No key tag in MapLike[{"item":"rediscovered:quiver"}]; Empty ingredient not allowed here; Not a json array: {"item":"rediscovered:quiver"}; Input does not contain a key [fabric:type]: MapLike[{"item":"rediscovered:quiver"}]; Crafting result must not be minecraft:air
+	at net.minecraft.util.Util.getResult(Util.java:1066) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:251) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:69) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:57) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.resource.SinglePreparationResourceReloader.method_18790(SinglePreparationResourceReloader.java:26) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.resource.SimpleResourceReload.method_18365(SimpleResourceReload.java:98) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:1013) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:992) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.server.Main.main(Main.java:149) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
+[07:29:32] [main/ERROR] (Minecraft) Parsing error loading recipe bossesandmore:wool/sky_blue_carpet
+com.google.gson.JsonParseException: Crafting result must not be minecraft:air; Map entry '#' : No key tag in MapLike[{"item":"rediscovered:sky_blue_wool"}]; Empty ingredient not allowed here; Not a json array: {"item":"rediscovered:sky_blue_wool"}; Input does not contain a key [fabric:type]: MapLike[{"item":"rediscovered:sky_blue_wool"}]
+	at net.minecraft.util.Util.getResult(Util.java:1066) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:251) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:69) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:57) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.resource.SinglePreparationResourceReloader.method_18790(SinglePreparationResourceReloader.java:26) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.resource.SimpleResourceReload.method_18365(SimpleResourceReload.java:98) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:1013) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:992) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.server.Main.main(Main.java:149) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
+[07:29:32] [main/ERROR] (Minecraft) Parsing error loading recipe bossesandmore:quiver/diamond_quiver
+com.google.gson.JsonParseException: No key tag in MapLike[{"item":"rediscovered:quiver"}]; Empty ingredient not allowed here; Not a json array: {"item":"rediscovered:quiver"}; Input does not contain a key [fabric:type]: MapLike[{"item":"rediscovered:quiver"}]; Crafting result must not be minecraft:air
+	at net.minecraft.util.Util.getResult(Util.java:1066) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:251) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:69) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:57) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.resource.SinglePreparationResourceReloader.method_18790(SinglePreparationResourceReloader.java:26) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.resource.SimpleResourceReload.method_18365(SimpleResourceReload.java:98) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:1013) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:992) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.server.Main.main(Main.java:149) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
+[07:29:32] [main/ERROR] (Minecraft) Parsing error loading recipe bossesandmore:studded_leggings
+com.google.gson.JsonParseException: Crafting result must not be minecraft:air
+	at net.minecraft.util.Util.getResult(Util.java:1066) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:251) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:69) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:57) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.resource.SinglePreparationResourceReloader.method_18790(SinglePreparationResourceReloader.java:26) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.resource.SimpleResourceReload.method_18365(SimpleResourceReload.java:98) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:1013) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:992) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.server.Main.main(Main.java:149) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
+[07:29:32] [main/ERROR] (Minecraft) Parsing error loading recipe bossesandmore:studded_boots
+com.google.gson.JsonParseException: Crafting result must not be minecraft:air
+	at net.minecraft.util.Util.getResult(Util.java:1066) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:251) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:69) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:57) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.resource.SinglePreparationResourceReloader.method_18790(SinglePreparationResourceReloader.java:26) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.resource.SimpleResourceReload.method_18365(SimpleResourceReload.java:98) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:1013) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:992) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.server.Main.main(Main.java:149) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
+[07:29:32] [main/ERROR] (Minecraft) Parsing error loading recipe bossesandmore:ancient_crying_obsidian
+com.google.gson.JsonParseException: Crafting result must not be minecraft:air
+	at net.minecraft.util.Util.getResult(Util.java:1066) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:251) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:69) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:57) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.resource.SinglePreparationResourceReloader.method_18790(SinglePreparationResourceReloader.java:26) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.resource.SimpleResourceReload.method_18365(SimpleResourceReload.java:98) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:1013) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:992) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.server.Main.main(Main.java:149) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
+[07:29:32] [main/ERROR] (Minecraft) Parsing error loading recipe bossesandmore:dirt_slab
+com.google.gson.JsonParseException: Crafting result must not be minecraft:air
+	at net.minecraft.util.Util.getResult(Util.java:1066) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:251) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:69) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:57) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.resource.SinglePreparationResourceReloader.method_18790(SinglePreparationResourceReloader.java:26) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.resource.SimpleResourceReload.method_18365(SimpleResourceReload.java:98) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:1013) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:992) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.server.Main.main(Main.java:149) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
+[07:29:32] [main/ERROR] (Minecraft) Parsing error loading recipe bossesandmore:ruby_from_smelting
+com.google.gson.JsonParseException: No key tag in MapLike[{"item":"rediscovered:ruby_ore"}]; Empty ingredient not allowed here; Not a json array: {"item":"rediscovered:ruby_ore"}; Input does not contain a key [fabric:type]: MapLike[{"item":"rediscovered:ruby_ore"}]
+	at net.minecraft.util.Util.getResult(Util.java:1066) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:251) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:69) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:57) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.resource.SinglePreparationResourceReloader.method_18790(SinglePreparationResourceReloader.java:26) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.resource.SimpleResourceReload.method_18365(SimpleResourceReload.java:98) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:1013) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:992) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.server.Main.main(Main.java:149) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
+[07:29:32] [main/ERROR] (Minecraft) Parsing error loading recipe bossesandmore:tables/spruce_table
+com.google.gson.JsonParseException: Crafting result must not be minecraft:air
+	at net.minecraft.util.Util.getResult(Util.java:1066) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:251) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:69) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:57) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.resource.SinglePreparationResourceReloader.method_18790(SinglePreparationResourceReloader.java:26) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.resource.SimpleResourceReload.method_18365(SimpleResourceReload.java:98) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:1013) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:992) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.server.Main.main(Main.java:149) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
+[07:29:32] [main/ERROR] (Minecraft) Parsing error loading recipe bossesandmore:quiver
+com.google.gson.JsonParseException: Crafting result must not be minecraft:air
+	at net.minecraft.util.Util.getResult(Util.java:1066) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:251) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:69) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:57) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.resource.SinglePreparationResourceReloader.method_18790(SinglePreparationResourceReloader.java:26) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.resource.SimpleResourceReload.method_18365(SimpleResourceReload.java:98) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:1013) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:992) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.server.Main.main(Main.java:149) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
+[07:29:32] [main/ERROR] (Minecraft) Parsing error loading recipe bossesandmore:pink_dye_from_paeonia
+com.google.gson.JsonParseException: No key tag in MapLike[{"item":"rediscovered:paeonia"}]; Empty ingredient not allowed here; Not a json array: {"item":"rediscovered:paeonia"}; Input does not contain a key [fabric:type]: MapLike[{"item":"rediscovered:paeonia"}]; No ingredients for shapeless recipe
+	at net.minecraft.util.Util.getResult(Util.java:1066) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:251) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:69) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:57) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.resource.SinglePreparationResourceReloader.method_18790(SinglePreparationResourceReloader.java:26) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.resource.SimpleResourceReload.method_18365(SimpleResourceReload.java:98) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:1013) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:992) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.server.Main.main(Main.java:149) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
+[07:29:32] [main/ERROR] (Minecraft) Parsing error loading recipe bossesandmore:wool/slate_blue_carpet
+com.google.gson.JsonParseException: Crafting result must not be minecraft:air; Map entry '#' : No key tag in MapLike[{"item":"rediscovered:slate_blue_wool"}]; Empty ingredient not allowed here; Not a json array: {"item":"rediscovered:slate_blue_wool"}; Input does not contain a key [fabric:type]: MapLike[{"item":"rediscovered:slate_blue_wool"}]
+	at net.minecraft.util.Util.getResult(Util.java:1066) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:251) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:69) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:57) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.resource.SinglePreparationResourceReloader.method_18790(SinglePreparationResourceReloader.java:26) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.resource.SimpleResourceReload.method_18365(SimpleResourceReload.java:98) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:1013) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:992) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.server.Main.main(Main.java:149) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
+[07:29:32] [main/ERROR] (Minecraft) Parsing error loading recipe bossesandmore:spikes
+com.google.gson.JsonParseException: Crafting result must not be minecraft:air
+	at net.minecraft.util.Util.getResult(Util.java:1066) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:251) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:69) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:57) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.resource.SinglePreparationResourceReloader.method_18790(SinglePreparationResourceReloader.java:26) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.resource.SimpleResourceReload.method_18365(SimpleResourceReload.java:98) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:1013) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:992) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.server.Main.main(Main.java:149) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
+[07:29:32] [main/ERROR] (Minecraft) Parsing error loading recipe bossesandmore:cooked_fish_from_campfire_cooking
+com.google.gson.JsonParseException: No key tag in MapLike[{"item":"rediscovered:raw_fish"}]; Empty ingredient not allowed here; Not a json array: {"item":"rediscovered:raw_fish"}; Input does not contain a key [fabric:type]: MapLike[{"item":"rediscovered:raw_fish"}]
+	at net.minecraft.util.Util.getResult(Util.java:1066) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:251) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:69) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:57) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.resource.SinglePreparationResourceReloader.method_18790(SinglePreparationResourceReloader.java:26) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.resource.SimpleResourceReload.method_18365(SimpleResourceReload.java:98) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:1013) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:992) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.server.Main.main(Main.java:149) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
+[07:29:32] [main/ERROR] (Minecraft) Parsing error loading recipe bossesandmore:chairs/birch_chair
+com.google.gson.JsonParseException: Crafting result must not be minecraft:air
+	at net.minecraft.util.Util.getResult(Util.java:1066) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:251) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:69) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:57) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.resource.SinglePreparationResourceReloader.method_18790(SinglePreparationResourceReloader.java:26) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.resource.SimpleResourceReload.method_18365(SimpleResourceReload.java:98) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:1013) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:992) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.server.Main.main(Main.java:149) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
+[07:29:32] [main/ERROR] (Minecraft) Parsing error loading recipe bossesandmore:wool/spring_green_carpet
+com.google.gson.JsonParseException: Crafting result must not be minecraft:air; Map entry '#' : No key tag in MapLike[{"item":"rediscovered:spring_green_wool"}]; Empty ingredient not allowed here; Not a json array: {"item":"rediscovered:spring_green_wool"}; Input does not contain a key [fabric:type]: MapLike[{"item":"rediscovered:spring_green_wool"}]
+	at net.minecraft.util.Util.getResult(Util.java:1066) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:251) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:69) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:57) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.resource.SinglePreparationResourceReloader.method_18790(SinglePreparationResourceReloader.java:26) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.resource.SimpleResourceReload.method_18365(SimpleResourceReload.java:98) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:1013) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:992) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.server.Main.main(Main.java:149) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
+[07:29:32] [main/ERROR] (Minecraft) Parsing error loading recipe bossesandmore:tables/birch_table
+com.google.gson.JsonParseException: Crafting result must not be minecraft:air
+	at net.minecraft.util.Util.getResult(Util.java:1066) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:251) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:69) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:57) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.resource.SinglePreparationResourceReloader.method_18790(SinglePreparationResourceReloader.java:26) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.resource.SimpleResourceReload.method_18365(SimpleResourceReload.java:98) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:1013) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:992) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.server.Main.main(Main.java:149) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
+[07:29:32] [main/ERROR] (Minecraft) Parsing error loading recipe bossesandmore:quiver/golden_quiver
+com.google.gson.JsonParseException: No key tag in MapLike[{"item":"rediscovered:quiver"}]; Empty ingredient not allowed here; Not a json array: {"item":"rediscovered:quiver"}; Input does not contain a key [fabric:type]: MapLike[{"item":"rediscovered:quiver"}]; Crafting result must not be minecraft:air
+	at net.minecraft.util.Util.getResult(Util.java:1066) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:251) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:69) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:57) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.resource.SinglePreparationResourceReloader.method_18790(SinglePreparationResourceReloader.java:26) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.resource.SimpleResourceReload.method_18365(SimpleResourceReload.java:98) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:1013) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:992) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.server.Main.main(Main.java:149) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
+[07:29:32] [main/ERROR] (Minecraft) Parsing error loading recipe bossesandmore:chairs/acacia_chair
+com.google.gson.JsonParseException: Crafting result must not be minecraft:air
+	at net.minecraft.util.Util.getResult(Util.java:1066) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:251) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:69) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:57) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.resource.SinglePreparationResourceReloader.method_18790(SinglePreparationResourceReloader.java:26) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.resource.SimpleResourceReload.method_18365(SimpleResourceReload.java:98) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:1013) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:992) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.server.Main.main(Main.java:149) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
+[07:29:32] [main/ERROR] (Minecraft) Parsing error loading recipe bossesandmore:ruby_block
+com.google.gson.JsonParseException: Crafting result must not be minecraft:air; Map entry '#' : No key tag in MapLike[{"item":"rediscovered:ruby"}]; Empty ingredient not allowed here; Not a json array: {"item":"rediscovered:ruby"}; Input does not contain a key [fabric:type]: MapLike[{"item":"rediscovered:ruby"}]
+	at net.minecraft.util.Util.getResult(Util.java:1066) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:251) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:69) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:57) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.resource.SinglePreparationResourceReloader.method_18790(SinglePreparationResourceReloader.java:26) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.resource.SimpleResourceReload.method_18365(SimpleResourceReload.java:98) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:1013) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:992) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.server.Main.main(Main.java:149) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
+[07:29:32] [main/ERROR] (Minecraft) Parsing error loading recipe bossesandmore:cooked_fish
+com.google.gson.JsonParseException: No key tag in MapLike[{"item":"rediscovered:raw_fish"}]; Empty ingredient not allowed here; Not a json array: {"item":"rediscovered:raw_fish"}; Input does not contain a key [fabric:type]: MapLike[{"item":"rediscovered:raw_fish"}]
+	at net.minecraft.util.Util.getResult(Util.java:1066) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:251) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:69) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:57) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.resource.SinglePreparationResourceReloader.method_18790(SinglePreparationResourceReloader.java:26) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.resource.SimpleResourceReload.method_18365(SimpleResourceReload.java:98) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:1013) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:992) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.server.Main.main(Main.java:149) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
+[07:29:32] [main/ERROR] (Minecraft) Parsing error loading recipe bossesandmore:studded_helmet
+com.google.gson.JsonParseException: Crafting result must not be minecraft:air
+	at net.minecraft.util.Util.getResult(Util.java:1066) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:251) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:69) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:57) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.resource.SinglePreparationResourceReloader.method_18790(SinglePreparationResourceReloader.java:26) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.resource.SimpleResourceReload.method_18365(SimpleResourceReload.java:98) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:1013) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:992) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.server.Main.main(Main.java:149) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
+[07:29:32] [main/ERROR] (Minecraft) Parsing error loading recipe bossesandmore:gear
+com.google.gson.JsonParseException: Crafting result must not be minecraft:air
+	at net.minecraft.util.Util.getResult(Util.java:1066) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:251) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:69) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:57) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.resource.SinglePreparationResourceReloader.method_18790(SinglePreparationResourceReloader.java:26) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.resource.SimpleResourceReload.method_18365(SimpleResourceReload.java:98) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:1013) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:992) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.server.Main.main(Main.java:149) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
+[07:29:32] [main/ERROR] (Minecraft) Parsing error loading recipe bossesandmore:red_dye_from_rose
+com.google.gson.JsonParseException: No key tag in MapLike[{"item":"rediscovered:rose"}]; Empty ingredient not allowed here; Not a json array: {"item":"rediscovered:rose"}; Input does not contain a key [fabric:type]: MapLike[{"item":"rediscovered:rose"}]; No ingredients for shapeless recipe
+	at net.minecraft.util.Util.getResult(Util.java:1066) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:251) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:69) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:57) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.resource.SinglePreparationResourceReloader.method_18790(SinglePreparationResourceReloader.java:26) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.resource.SimpleResourceReload.method_18365(SimpleResourceReload.java:98) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:1013) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:992) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.server.Main.main(Main.java:149) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
+[07:29:32] [main/ERROR] (Minecraft) Parsing error loading recipe bossesandmore:rotational_converter
+com.google.gson.JsonParseException: Crafting result must not be minecraft:air; Map entry 'g' : No key tag in MapLike[{"item":"rediscovered:gear"}]; Empty ingredient not allowed here; Not a json array: {"item":"rediscovered:gear"}; Input does not contain a key [fabric:type]: MapLike[{"item":"rediscovered:gear"}]
+	at net.minecraft.util.Util.getResult(Util.java:1066) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:251) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:69) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:57) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.resource.SinglePreparationResourceReloader.method_18790(SinglePreparationResourceReloader.java:26) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.resource.SimpleResourceReload.method_18365(SimpleResourceReload.java:98) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:1013) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:992) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.server.Main.main(Main.java:149) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
+[07:29:32] [main/ERROR] (Minecraft) Parsing error loading recipe bossesandmore:wool/lavender_carpet
+com.google.gson.JsonParseException: Crafting result must not be minecraft:air; Map entry '#' : No key tag in MapLike[{"item":"rediscovered:lavender_wool"}]; Empty ingredient not allowed here; Not a json array: {"item":"rediscovered:lavender_wool"}; Input does not contain a key [fabric:type]: MapLike[{"item":"rediscovered:lavender_wool"}]
+	at net.minecraft.util.Util.getResult(Util.java:1066) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:251) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:69) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:57) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.resource.SinglePreparationResourceReloader.method_18790(SinglePreparationResourceReloader.java:26) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.resource.SimpleResourceReload.method_18365(SimpleResourceReload.java:98) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:1013) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:992) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.server.Main.main(Main.java:149) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
+[07:29:32] [main/ERROR] (Minecraft) Parsing error loading recipe bossesandmore:quiver/iron_quiver
+com.google.gson.JsonParseException: No key tag in MapLike[{"item":"rediscovered:quiver"}]; Empty ingredient not allowed here; Not a json array: {"item":"rediscovered:quiver"}; Input does not contain a key [fabric:type]: MapLike[{"item":"rediscovered:quiver"}]; Crafting result must not be minecraft:air
+	at net.minecraft.util.Util.getResult(Util.java:1066) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:251) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:69) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:57) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.resource.SinglePreparationResourceReloader.method_18790(SinglePreparationResourceReloader.java:26) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.resource.SimpleResourceReload.method_18365(SimpleResourceReload.java:98) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:1013) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:992) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.server.Main.main(Main.java:149) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
+[07:29:32] [main/ERROR] (Minecraft) Parsing error loading recipe bossesandmore:dream_pillow
+com.google.gson.JsonParseException: Crafting result must not be minecraft:air
+	at net.minecraft.util.Util.getResult(Util.java:1066) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:251) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:69) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:57) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.resource.SinglePreparationResourceReloader.method_18790(SinglePreparationResourceReloader.java:26) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.resource.SimpleResourceReload.method_18365(SimpleResourceReload.java:98) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:1013) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:992) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.server.Main.main(Main.java:149) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
+[07:29:32] [main/ERROR] (Minecraft) Parsing error loading recipe bossesandmore:chairs/dark_oak_chair
+com.google.gson.JsonParseException: Crafting result must not be minecraft:air
+	at net.minecraft.util.Util.getResult(Util.java:1066) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:251) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:69) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:57) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.resource.SinglePreparationResourceReloader.method_18790(SinglePreparationResourceReloader.java:26) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.resource.SimpleResourceReload.method_18365(SimpleResourceReload.java:98) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:1013) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:992) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.server.Main.main(Main.java:149) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
+[07:29:32] [main/ERROR] (Minecraft) Parsing error loading recipe bossesandmore:wool/dark_pink_carpet
+com.google.gson.JsonParseException: Crafting result must not be minecraft:air; Map entry '#' : No key tag in MapLike[{"item":"rediscovered:dark_pink_wool"}]; Empty ingredient not allowed here; Not a json array: {"item":"rediscovered:dark_pink_wool"}; Input does not contain a key [fabric:type]: MapLike[{"item":"rediscovered:dark_pink_wool"}]
+	at net.minecraft.util.Util.getResult(Util.java:1066) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:251) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:69) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:57) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.resource.SinglePreparationResourceReloader.method_18790(SinglePreparationResourceReloader.java:26) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.resource.SimpleResourceReload.method_18365(SimpleResourceReload.java:98) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:1013) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:992) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.server.Main.main(Main.java:149) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
+[07:29:32] [main/ERROR] (Minecraft) Parsing error loading recipe bossesandmore:chairs/jungle_chair
+com.google.gson.JsonParseException: Crafting result must not be minecraft:air
+	at net.minecraft.util.Util.getResult(Util.java:1066) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:251) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:69) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:57) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.resource.SinglePreparationResourceReloader.method_18790(SinglePreparationResourceReloader.java:26) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.resource.SimpleResourceReload.method_18365(SimpleResourceReload.java:98) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:1013) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:992) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.server.Main.main(Main.java:149) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
+[07:29:32] [main/ERROR] (Minecraft) Parsing error loading recipe bossesandmore:wool/bright_green_carpet
+com.google.gson.JsonParseException: Crafting result must not be minecraft:air; Map entry '#' : No key tag in MapLike[{"item":"rediscovered:bright_green_wool"}]; Empty ingredient not allowed here; Not a json array: {"item":"rediscovered:bright_green_wool"}; Input does not contain a key [fabric:type]: MapLike[{"item":"rediscovered:bright_green_wool"}]
+	at net.minecraft.util.Util.getResult(Util.java:1066) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:251) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:69) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:57) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.resource.SinglePreparationResourceReloader.method_18790(SinglePreparationResourceReloader.java:26) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.resource.SimpleResourceReload.method_18365(SimpleResourceReload.java:98) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:1013) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:992) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.server.Main.main(Main.java:149) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
+[07:29:32] [main/ERROR] (Minecraft) Parsing error loading recipe bossesandmore:chairs/spruce_chair
+com.google.gson.JsonParseException: Crafting result must not be minecraft:air
+	at net.minecraft.util.Util.getResult(Util.java:1066) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:251) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:69) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:57) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.resource.SinglePreparationResourceReloader.method_18790(SinglePreparationResourceReloader.java:26) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.resource.SimpleResourceReload.method_18365(SimpleResourceReload.java:98) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:1013) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.Util.waitAndApply(Util.java:992) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.server.Main.main(Main.java:149) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
+[07:29:32] [main/INFO] (Minecraft) Loaded 7 recipes
+[07:29:32] [main/INFO] (Minecraft) Loaded 1314 advancements
+[07:29:32] [main/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 64 new biomes in 842.3 μs
+[07:29:32] [Server thread/INFO] (Minecraft) Starting minecraft server version 1.20.2
+[07:29:32] [Server thread/INFO] (Minecraft) Loading properties
+[07:29:32] [Server thread/INFO] (Minecraft) Default game type: SURVIVAL
+[07:29:32] [Server thread/INFO] (Minecraft) Generating keypair
+[07:29:32] [Server thread/INFO] (Minecraft) Starting Minecraft server on *:25565
+[07:29:32] [Server thread/INFO] (Minecraft) Using default channel type
+[07:29:32] [Server thread/INFO] (Minecraft) Preparing level "world"
+[07:29:35] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
+[07:29:36] [Worker-Main-4/INFO] (Minecraft) Preparing spawn area: 0%
+[07:29:36] [Worker-Main-2/INFO] (Minecraft) Preparing spawn area: 0%
+[07:29:36] [Worker-Main-7/INFO] (Minecraft) Preparing spawn area: 0%
+[07:29:37] [Worker-Main-7/INFO] (Minecraft) Preparing spawn area: 1%
+[07:29:37] [Worker-Main-5/INFO] (Minecraft) Preparing spawn area: 4%
+[07:29:38] [Worker-Main-7/INFO] (Minecraft) Preparing spawn area: 6%
+[07:29:38] [Worker-Main-1/INFO] (Minecraft) Preparing spawn area: 10%
+[07:29:39] [Worker-Main-1/INFO] (Minecraft) Preparing spawn area: 13%
+[07:29:39] [Worker-Main-1/INFO] (Minecraft) Preparing spawn area: 16%
+[07:29:40] [Worker-Main-6/INFO] (Minecraft) Preparing spawn area: 19%
+[07:29:40] [Worker-Main-6/INFO] (Minecraft) Preparing spawn area: 23%
+[07:29:41] [Worker-Main-7/INFO] (Minecraft) Preparing spawn area: 27%
+[07:29:41] [Worker-Main-3/INFO] (Minecraft) Preparing spawn area: 32%
+[07:29:42] [Worker-Main-2/INFO] (Minecraft) Preparing spawn area: 36%
+[07:29:42] [Worker-Main-4/INFO] (Minecraft) Preparing spawn area: 42%
+[07:29:43] [Worker-Main-4/INFO] (Minecraft) Preparing spawn area: 47%
+[07:29:43] [Worker-Main-1/INFO] (Minecraft) Preparing spawn area: 54%
+[07:29:44] [Worker-Main-3/INFO] (Minecraft) Preparing spawn area: 59%
+[07:29:44] [Worker-Main-7/INFO] (Minecraft) Preparing spawn area: 67%
+[07:29:45] [Worker-Main-6/INFO] (Minecraft) Preparing spawn area: 72%
+[07:29:45] [Worker-Main-6/INFO] (Minecraft) Preparing spawn area: 80%
+[07:29:46] [Worker-Main-3/INFO] (Minecraft) Preparing spawn area: 85%
+[07:29:46] [Worker-Main-6/INFO] (Minecraft) Preparing spawn area: 92%
+[07:29:47] [Server thread/INFO] (Minecraft) Time elapsed: 11405 ms
+[07:29:47] [Server thread/INFO] (Minecraft) Done (14.019s)! For help, type "help"
+[07:30:02] [Server thread/INFO] (Minecraft) /advancement (grant|revoke)
+[07:30:02] [Server thread/INFO] (Minecraft) /attribute <target> <attribute> (get|base|modifier)
+[07:30:02] [Server thread/INFO] (Minecraft) /execute (run|if|unless|as|at|store|positioned|rotated|facing|align|anchored|in|summon|on)
+[07:30:02] [Server thread/INFO] (Minecraft) /bossbar (add|remove|list|set|get)
+[07:30:02] [Server thread/INFO] (Minecraft) /clear [<targets>]
+[07:30:02] [Server thread/INFO] (Minecraft) /clone (<begin>|from)
+[07:30:02] [Server thread/INFO] (Minecraft) /damage <target> <amount> [<damageType>]
+[07:30:02] [Server thread/INFO] (Minecraft) /data (merge|get|remove|modify)
+[07:30:02] [Server thread/INFO] (Minecraft) /datapack (enable|disable|list)
+[07:30:02] [Server thread/INFO] (Minecraft) /debug (start|stop|function)
+[07:30:02] [Server thread/INFO] (Minecraft) /defaultgamemode <gamemode>
+[07:30:02] [Server thread/INFO] (Minecraft) /difficulty [peaceful|easy|normal|hard]
+[07:30:02] [Server thread/INFO] (Minecraft) /effect (clear|give)
+[07:30:02] [Server thread/INFO] (Minecraft) /me <action>
+[07:30:02] [Server thread/INFO] (Minecraft) /enchant <targets> <enchantment> [<level>]
+[07:30:02] [Server thread/INFO] (Minecraft) /experience (add|set|query)
+[07:30:02] [Server thread/INFO] (Minecraft) /xp -> experience
+[07:30:02] [Server thread/INFO] (Minecraft) /fill <from> <to> <block> [replace|keep|outline|hollow|destroy]
+[07:30:02] [Server thread/INFO] (Minecraft) /fillbiome <from> <to> <biome> [replace]
+[07:30:02] [Server thread/INFO] (Minecraft) /forceload (add|remove|query)
+[07:30:02] [Server thread/INFO] (Minecraft) /function <name> [<arguments>|with]
+[07:30:02] [Server thread/INFO] (Minecraft) /gamemode <gamemode> [<target>]
+[07:30:02] [Server thread/INFO] (Minecraft) /gamerule (announceAdvancements|blockExplosionDropDecay|commandBlockOutput|commandModificationBlockLimit|disableElytraMovementCheck|disableRaids|doDaylightCycle|doEntityDrops|doFireTick|doImmediateRespawn|doInsomnia|doLimitedCrafting|doMobLoot|doMobSpawning|doPatrolSpawning|doTileDrops|doTraderSpawning|doVinesSpread|doWardenSpawning|doWeatherCycle|drowningDamage|enderPearlsVanishOnDeath|fallDamage|fireDamage|forgiveDeadPlayers|freezeDamage|globalSoundEvents|keepInventory|lavaSourceConversion|logAdminCommands|maxCommandChainLength|maxEntityCramming|mobExplosionDropDecay|mobGriefing|naturalRegeneration|playersSleepingPercentage|randomTickSpeed|reducedDebugInfo|sendCommandFeedback|showDeathMessages|snowAccumulationHeight|spawnRadius|spectatorsGenerateChunks|tntExplosionDropDecay|universalAnger|waterSourceConversion)
+[07:30:02] [Server thread/INFO] (Minecraft) /give <targets> <item> [<count>]
+[07:30:02] [Server thread/INFO] (Minecraft) /help [<command>]
+[07:30:02] [Server thread/INFO] (Minecraft) /item (replace|modify)
+[07:30:02] [Server thread/INFO] (Minecraft) /kick <targets> [<reason>]
+[07:30:02] [Server thread/INFO] (Minecraft) /kill [<targets>]
+[07:30:02] [Server thread/INFO] (Minecraft) /list [uuids]
+[07:30:02] [Server thread/INFO] (Minecraft) /locate (structure|biome|poi)
+[07:30:02] [Server thread/INFO] (Minecraft) /loot (replace|insert|give|spawn)
+[07:30:02] [Server thread/INFO] (Minecraft) /msg <targets> <message>
+[07:30:02] [Server thread/INFO] (Minecraft) /tell -> msg
+[07:30:02] [Server thread/INFO] (Minecraft) /w -> msg
+[07:30:02] [Server thread/INFO] (Minecraft) /particle <name> [<pos>]
+[07:30:02] [Server thread/INFO] (Minecraft) /place (feature|jigsaw|structure|template)
+[07:30:02] [Server thread/INFO] (Minecraft) /playsound <sound> (master|music|record|weather|block|hostile|neutral|player|ambient|voice)
+[07:30:02] [Server thread/INFO] (Minecraft) /random (value|roll|reset)
+[07:30:02] [Server thread/INFO] (Minecraft) /reload
+[07:30:02] [Server thread/INFO] (Minecraft) /recipe (give|take)
+[07:30:02] [Server thread/INFO] (Minecraft) /return <value>
+[07:30:02] [Server thread/INFO] (Minecraft) /ride <target> (mount|dismount)
+[07:30:02] [Server thread/INFO] (Minecraft) /say <message>
+[07:30:02] [Server thread/INFO] (Minecraft) /schedule (function|clear)
+[07:30:02] [Server thread/INFO] (Minecraft) /scoreboard (objectives|players)
+[07:30:02] [Server thread/INFO] (Minecraft) /seed
+[07:30:02] [Server thread/INFO] (Minecraft) /setblock <pos> <block> [destroy|keep|replace]
+[07:30:02] [Server thread/INFO] (Minecraft) /spawnpoint [<targets>]
+[07:30:02] [Server thread/INFO] (Minecraft) /setworldspawn [<pos>]
+[07:30:02] [Server thread/INFO] (Minecraft) /spectate [<target>]
+[07:30:02] [Server thread/INFO] (Minecraft) /spreadplayers <center> <spreadDistance> <maxRange> (<respectTeams>|under)
+[07:30:02] [Server thread/INFO] (Minecraft) /stopsound <targets> [*|master|music|record|weather|block|hostile|neutral|player|ambient|voice]
+[07:30:02] [Server thread/INFO] (Minecraft) /summon <entity> [<pos>]
+[07:30:02] [Server thread/INFO] (Minecraft) /tag <targets> (add|remove|list)
+[07:30:02] [Server thread/INFO] (Minecraft) /team (list|add|remove|empty|join|leave|modify)
+[07:30:02] [Server thread/INFO] (Minecraft) /teammsg <message>
+[07:30:02] [Server thread/INFO] (Minecraft) /tm -> teammsg
+[07:30:02] [Server thread/INFO] (Minecraft) /teleport (<location>|<destination>|<targets>)
+[07:30:02] [Server thread/INFO] (Minecraft) /tp -> teleport
+[07:30:02] [Server thread/INFO] (Minecraft) /tellraw <targets> <message>
+[07:30:02] [Server thread/INFO] (Minecraft) /time (set|add|query)
+[07:30:02] [Server thread/INFO] (Minecraft) /title <targets> (clear|reset|title|subtitle|actionbar|times)
+[07:30:02] [Server thread/INFO] (Minecraft) /trigger <objective> [add|set]
+[07:30:02] [Server thread/INFO] (Minecraft) /weather (clear|rain|thunder)
+[07:30:02] [Server thread/INFO] (Minecraft) /worldborder (add|set|center|damage|get|warning)
+[07:30:02] [Server thread/INFO] (Minecraft) /jfr (start|stop)
+[07:30:02] [Server thread/INFO] (Minecraft) /debugconfig (config|unconfig)
+[07:30:02] [Server thread/INFO] (Minecraft) /ban-ip <target> [<reason>]
+[07:30:02] [Server thread/INFO] (Minecraft) /banlist [ips|players]
+[07:30:02] [Server thread/INFO] (Minecraft) /ban <targets> [<reason>]
+[07:30:02] [Server thread/INFO] (Minecraft) /deop <targets>
+[07:30:02] [Server thread/INFO] (Minecraft) /op <targets>
+[07:30:02] [Server thread/INFO] (Minecraft) /pardon <targets>
+[07:30:02] [Server thread/INFO] (Minecraft) /pardon-ip <target>
+[07:30:02] [Server thread/INFO] (Minecraft) /perf (start|stop)
+[07:30:02] [Server thread/INFO] (Minecraft) /save-all [flush]
+[07:30:02] [Server thread/INFO] (Minecraft) /save-off
+[07:30:02] [Server thread/INFO] (Minecraft) /save-on
+[07:30:02] [Server thread/INFO] (Minecraft) /setidletimeout <minutes>
+[07:30:02] [Server thread/INFO] (Minecraft) /stop
+[07:30:02] [Server thread/INFO] (Minecraft) /whitelist (on|off|list|add|remove|reload)

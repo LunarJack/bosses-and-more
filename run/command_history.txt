@@ -1,2 +1,5 @@
 /setblock ~ ~ ~ bossesandmore:glowing_obsidian
 /setblock -424 64 -451 bossesandmore:update
+/summon bossesandmore:pillar
+/locate structure minecraft:village_plains
+/tp @s 1136 ~ 816

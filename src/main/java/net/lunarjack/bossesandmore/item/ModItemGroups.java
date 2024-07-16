@@ -32,6 +32,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.LAST_ROSE);
                         entries.add(ModBlocks.GLOWING_OBSIDIAN);
                         entries.add(ModBlocks.BLUE_ROSE);
+                        entries.add(ModBlocks.FULL_GRASS_BLOCK);
 
                     }).build());
 

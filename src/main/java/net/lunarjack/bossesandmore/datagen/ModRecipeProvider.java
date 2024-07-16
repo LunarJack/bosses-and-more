@@ -4,11 +4,9 @@ import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
 import net.lunarjack.bossesandmore.block.ModBlocks;
 import net.lunarjack.bossesandmore.item.ModItems;
-import net.minecraft.data.server.recipe.CookingRecipeJsonBuilder;
-import net.minecraft.data.server.recipe.RecipeExporter;
-import net.minecraft.data.server.recipe.RecipeJsonProvider;
-import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
+import net.minecraft.data.server.recipe.*;
 import net.minecraft.item.Items;
+import net.minecraft.recipe.ShapelessRecipe;
 import net.minecraft.recipe.book.RecipeCategory;
 import net.minecraft.util.Identifier;
 
@@ -39,5 +37,11 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('P', ModItems.PILLAR_CORE)
                 .criterion(hasItem(ModItems.PILLAR_CORE), conditionsFromItem(ModItems.PILLAR_CORE))
                 .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.PILLAR_SHELL)));
+        ShapedRecipeJsonBuilder.create(RecipeCategory.DECORATIONS, ModBlocks.FULL_GRASS_BLOCK, 1)
+                .pattern("GG")
+                .pattern("GG")
+                .input('G', Items.GRASS)
+                .criterion(hasItem(Items.GRASS), conditionsFromItem(Items.GRASS))
+                .offerTo(exporter, new Identifier(getRecipeName(ModBlocks.FULL_GRASS_BLOCK)));
     }
 }

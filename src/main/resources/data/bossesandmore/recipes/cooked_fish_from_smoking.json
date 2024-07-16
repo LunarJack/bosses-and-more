@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:smoking",
-  "ingredient": {
-    "item": "rediscovered:raw_fish"
-  },
-  "result": "rediscovered:cooked_fish",
-  "experience": 0.35,
-  "cookingtime": 100
-}

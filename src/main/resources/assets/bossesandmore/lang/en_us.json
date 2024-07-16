@@ -37,6 +37,8 @@
 
   "itemgroup.BAM": "Bosses And More Items",
 
-  "entity.minecraft.villager.gem_refiner": "Gem Refiner"
+  "entity.minecraft.villager.gem_refiner": "Gem Refiner",
+
+  "block.bossesandmore.full_grass_block": "Full Grass Block"
 
 }
