@@ -5,7 +5,58 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e4092c4-2d22-49ad-800f-a3cf0a0ba476" name="Changes" comment="1.20.2">
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/bossesandmore/textures/block/glowing_obsidian.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/config/fabric/indigo-renderer.properties" beforeDir="false" afterPath="$PROJECT_DIR$/run/config/fabric/indigo-renderer.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-1.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-2.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-3.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-4.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-5.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/options.txt" beforeDir="false" afterPath="$PROJECT_DIR$/run/options.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/DIM-1/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/DIM-1/data/raids.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/DIM1/data/raids_end.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/DIM1/data/raids_end.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/advancements/03825f5c-cf99-36d9-8f32-2c0adc70aba9.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/advancements/03825f5c-cf99-36d9-8f32-2c0adc70aba9.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/data/raids.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/data/random_sequences.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/data/random_sequences.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/entities/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/entities/r.-1.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/entities/r.-1.-2.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/entities/r.-1.-2.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/entities/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/entities/r.-1.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/entities/r.-2.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/entities/r.-2.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/entities/r.-2.-2.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/entities/r.-2.-2.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/entities/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/entities/r.0.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/entities/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/entities/r.0.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/level.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/level.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/level.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/level.dat_old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/03825f5c-cf99-36d9-8f32-2c0adc70aba9.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/03825f5c-cf99-36d9-8f32-2c0adc70aba9.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/playerdata/03825f5c-cf99-36d9-8f32-2c0adc70aba9.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/playerdata/03825f5c-cf99-36d9-8f32-2c0adc70aba9.dat_old" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/poi/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/poi/r.-1.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.-1.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.-1.-2.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.-1.-2.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.-1.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.-2.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.-2.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.-2.-2.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.-2.-2.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.0.-1.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.0.-2.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.0.-2.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/region/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/region/r.0.0.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/New World/stats/03825f5c-cf99-36d9-8f32-2c0adc70aba9.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/New World/stats/03825f5c-cf99-36d9-8f32-2c0adc70aba9.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/.cache/132583a155c5d372c78546bd7b9d6b5471a7c081" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/.cache/132583a155c5d372c78546bd7b9d6b5471a7c081" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/.cache/2484474954666e29b03b0386562a4e4ac2b215b5" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/.cache/2484474954666e29b03b0386562a4e4ac2b215b5" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/.cache/4cfd4bfa06b25e3145e35bb22407db525ee770f8" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/.cache/4cfd4bfa06b25e3145e35bb22407db525ee770f8" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/.cache/6ffacbd0a98e1f6afcc97f39001ab88ce2a61dfd" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/.cache/6ffacbd0a98e1f6afcc97f39001ab88ce2a61dfd" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/.cache/7bd558801dd75200db88663f42b7806fbc4b08d3" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/.cache/7bd558801dd75200db88663f42b7806fbc4b08d3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/.cache/c92ce47eed0db9e6df3d058a04f502f7e98dd26c" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/.cache/c92ce47eed0db9e6df3d058a04f502f7e98dd26c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/generated/data/minecraft/tags/blocks/mineable/pickaxe.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/data/minecraft/tags/blocks/mineable/pickaxe.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lunarjack/bossesandmore/BossesAndMoreClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/lunarjack/bossesandmore/BossesAndMoreClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lunarjack/bossesandmore/block/ModBlocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/lunarjack/bossesandmore/block/ModBlocks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lunarjack/bossesandmore/datagen/ModBlockTagProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/lunarjack/bossesandmore/datagen/ModBlockTagProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lunarjack/bossesandmore/datagen/ModLootTableProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/lunarjack/bossesandmore/datagen/ModLootTableProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lunarjack/bossesandmore/datagen/ModModelProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/lunarjack/bossesandmore/datagen/ModModelProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/net/lunarjack/bossesandmore/item/ModItemGroups.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/lunarjack/bossesandmore/item/ModItemGroups.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/bossesandmore/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/bossesandmore/lang/en_us.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,28 +128,29 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Data Generation.executor": "Run",
-    "Application.Minecraft Client.executor": "Run",
-    "Downloaded.Files.Path.Enabled": "false",
-    "Gradle.Build bosses-and-more-1.20.1.executor": "Run",
-    "Gradle.bosses-and-more-1.20.1 [runClient].executor": "Run",
-    "JavaVariableFindUsagesOptions.isSearchForAccessors": "true",
-    "JavaVariableFindUsagesOptions.isSearchForTextOccurrences": "true",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/Lennon/Downloads/bosses-and-more-1.20.1/src/main/resources/data/bossesandmore",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15136719",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_MARK_IGNORED_FILES_AS_EXCLUDED&quot;: &quot;true&quot;,
+    &quot;Application.Data Generation.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Minecraft Client.executor&quot;: &quot;Run&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Gradle.Build bosses-and-more-1.20.1.executor&quot;: &quot;Run&quot;,
+    &quot;Gradle.bosses-and-more-1.20.1 [runClient].executor&quot;: &quot;Run&quot;,
+    &quot;JavaVariableFindUsagesOptions.isSearchForAccessors&quot;: &quot;true&quot;,
+    &quot;JavaVariableFindUsagesOptions.isSearchForTextOccurrences&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/Lennon/Downloads/bosses-and-more-1.20.1/src/main/resources/data/bossesandmore&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15136719&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/data/bossesandmore" />
@@ -111,7 +163,7 @@
       <recent name="net.lunarjack.bossesandmore.entity" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Data Generation">
+  <component name="RunManager" selected="Application.Minecraft Client">
     <configuration name="bosses-and-more-1.20.1 [runClient]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -181,7 +233,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720409217477</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="1.20.2">
+      <option name="closed" value="true" />
+      <created>1720409719625</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1720409719625</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

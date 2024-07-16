@@ -1,0 +1,2 @@
+/setblock ~ ~ ~ bossesandmore:glowing_obsidian
+/setblock -424 64 -451 bossesandmore:update

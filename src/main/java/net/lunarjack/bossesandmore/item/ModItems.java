@@ -11,8 +11,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.util.Identifier;
 
-import static net.lunarjack.bossesandmore.block.ModBlocks.ENDISITE;
-import static net.lunarjack.bossesandmore.block.ModBlocks.PILLAR_SHELL;
+import static net.lunarjack.bossesandmore.block.ModBlocks.*;
 
 public class ModItems {
     public static final Item PILLAR_CORE = registerItem("pillar_core", new Item(new FabricItemSettings()));
@@ -66,6 +65,10 @@ public class ModItems {
         entries.add(ENDESITE_LEGGINGS);
         entries.add(ENDESITE_BOOTS);
     }
+    private static void addItemsToOperatorItemGroup(FabricItemGroupEntries entries) {
+        entries.add(UPDATE);
+        entries.add(ATEUPD);
+    }
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(BossesAndMore.MOD_ID, name), item);
@@ -80,5 +83,9 @@ public class ModItems {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.COMBAT).register(ModItems::addItemsToCombatItemGroup);
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(ModItems::addItemsToBuildingBlocksItemGroup);
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(ModItems::addItemsToToolsItemGroup);
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.OPERATOR).register(ModItems::addItemsToOperatorItemGroup);
+
+        }
+
     }
-}
+

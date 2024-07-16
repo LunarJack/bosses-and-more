@@ -18,6 +18,10 @@ public class ModModelProvider extends FabricModelProvider {
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ENDISITE);
         blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.LAST_ROSE, ModBlocks.POTTED_LAST_ROSE, BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.GLOWING_OBSIDIAN);
+        blockStateModelGenerator.registerFlowerPotPlant(ModBlocks.BLUE_ROSE, ModBlocks.POTTED_BLUE_ROSE, BlockStateModelGenerator.TintType.NOT_TINTED);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.UPDATE);
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ATEUPD);
     }
 
     @Override

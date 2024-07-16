@@ -23,7 +23,10 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.PILLAR_SHELL);
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
                 .add(ModBlocks.ENDISITE)
+                .add(ModBlocks.GLOWING_OBSIDIAN)
                 .add(ModBlocks.PILLAR_SHELL);
+        getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
+                .add(ModBlocks.GLOWING_OBSIDIAN);
         getOrCreateTagBuilder(TagKey.of(RegistryKeys.BLOCK, new Identifier("fabric", "needs_tool_level-4")))
                 .add(ModBlocks.ENDISITE);
         getOrCreateTagBuilder(TagKey.of(RegistryKeys.BLOCK, new Identifier("fabric", "needs_tool_level-6")))

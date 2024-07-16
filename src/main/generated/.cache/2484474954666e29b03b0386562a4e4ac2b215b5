@@ -1,5 +1,8 @@
-// 1.20.2	2024-07-07T09:40:41.384506	Bosses And More/Block Loot Tables
+// 1.20.2	2024-07-15T17:30:58.935185	Bosses And More/Block Loot Tables
 5ba03a1a5f8f73a992804ac2ad59fbcc8affa890 data/bossesandmore/loot_tables/blocks/potted_last_rose.json
 e0e8059558e71975f99689725c5e2c8e85ae112e data/bossesandmore/loot_tables/blocks/endisite.json
 b993d3c1e7565717d9b10c726572e6b5bbc8c0e8 data/bossesandmore/loot_tables/blocks/last_rose.json
 eb822a29cc3e4b09566ccc7c0d1eddb209938d6d data/bossesandmore/loot_tables/blocks/pillar_shell.json
+5e60027159129b29b3a52e68828189061d1119d6 data/bossesandmore/loot_tables/blocks/glowing_obsidian.json
+c54812ef5e20d36fdfb55f6774f351e2b58abfe9 data/bossesandmore/loot_tables/blocks/potted_blue_rose.json
+7e7361f1a7c71b0964577b1ec94cca1407485fca data/bossesandmore/loot_tables/blocks/blue_rose.json

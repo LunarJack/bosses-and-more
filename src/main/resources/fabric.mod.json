@@ -3,16 +3,16 @@
 	"id": "bossesandmore",
 	"version": "${version}",
 	"name": "Bosses And More",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "",
 	"authors": [
 		"LunarJack8125"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/LunarJack/bosses-and-more"
 	},
 	"license": "MIT",
-	"icon": "assets/bossesandmore/icon.png",
+	"icon": "assets/bossesandmore/textures/block/pillar_shell_back.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [

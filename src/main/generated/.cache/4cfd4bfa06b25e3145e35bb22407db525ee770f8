@@ -1,5 +1,6 @@
-// 1.20.2	2024-07-07T09:40:41.383444	Bosses And More/Tags for minecraft:block
+// 1.20.2	2024-07-15T17:30:58.932563	Bosses And More/Tags for minecraft:block
 fc8bc38b1a00ffa11fef3a0abb61e243fdd49323 data/bossesandmore/tags/blocks/block_boss_drops.json
 fc8bc38b1a00ffa11fef3a0abb61e243fdd49323 data/fabric/tags/blocks/needs_tool_level-6.json
+98c882587814f085f3f76c8b8a0db7b03f3d9df9 data/minecraft/tags/blocks/needs_diamond_tool.json
 f181da8585ada6a92d2945ef67cae612eb1a61ed data/fabric/tags/blocks/needs_tool_level-4.json
-fe2061ac2a8c8cbe8068efb30a17b530b0c4b850 data/minecraft/tags/blocks/mineable/pickaxe.json
+30286e00f877903fa2e3d86aa2c3bc43883f855c data/minecraft/tags/blocks/mineable/pickaxe.json

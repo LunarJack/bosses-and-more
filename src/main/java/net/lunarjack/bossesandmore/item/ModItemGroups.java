@@ -30,6 +30,8 @@ public class ModItemGroups {
                         entries.add(ModItems.ENDESITE_LEGGINGS);
                         entries.add(ModItems.ENDESITE_BOOTS);
                         entries.add(ModBlocks.LAST_ROSE);
+                        entries.add(ModBlocks.GLOWING_OBSIDIAN);
+                        entries.add(ModBlocks.BLUE_ROSE);
 
                     }).build());
 
