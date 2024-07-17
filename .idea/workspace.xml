@@ -4,21 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e4092c4-2d22-49ad-800f-a3cf0a0ba476" name="Changes" comment="Alpha 0.1.2">
-      <change beforePath="$PROJECT_DIR$/run/logs/2024-07-17-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-07-17-1.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2024-07-17-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-07-17-2.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2024-07-17-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-07-17-3.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2024-07-17-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-07-17-4.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2024-07-17-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-07-17-5.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2024-07-17-6.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-07-17-6.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2024-07-17-7.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-07-17-7.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-1.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-2.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/debug-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-3.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/debug-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-4.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/debug-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-5.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/debug.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/latest.log" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/latest.log" afterDir="false" />
+    <list default="true" id="8e4092c4-2d22-49ad-800f-a3cf0a0ba476" name="Changes" comment="Alpha 0.1.2.1">
+      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -248,7 +235,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721254947803</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Alpha 0.1.2.1">
+      <option name="closed" value="true" />
+      <created>1721254989975</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1721254989975</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -260,6 +255,7 @@
     <MESSAGE value="Alpha 0.1" />
     <MESSAGE value="Alpha 0.1.1" />
     <MESSAGE value="Alpha 0.1.2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Alpha 0.1.2" />
+    <MESSAGE value="Alpha 0.1.2.1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Alpha 0.1.2.1" />
   </component>
 </project>
