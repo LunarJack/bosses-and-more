@@ -12,7 +12,7 @@
 		"sources": "https://github.com/LunarJack/bosses-and-more"
 	},
 	"license": "MIT",
-	"icon": "assets/bossesandmore/textures/block/pillar_shell_back.png",
+	"icon": "assets/bossesandmore/textures/block/pillar_shell_front.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [

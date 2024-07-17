@@ -25,8 +25,11 @@ public class ModBlocks {
     public static final Block BLUE_ROSE = registerBlock("blue_rose", new FlowerBlock(StatusEffects.LEVITATION, 10,FabricBlockSettings.copyOf(Blocks.POPPY).nonOpaque().noCollision()));
     public static final Block POTTED_LAST_ROSE = Registry.register(Registries.BLOCK, new Identifier(BossesAndMore.MOD_ID, "potted_last_rose"), new FlowerPotBlock(LAST_ROSE, FabricBlockSettings.copyOf(Blocks.POTTED_POPPY).nonOpaque()));
     public static final Block POTTED_BLUE_ROSE = Registry.register(Registries.BLOCK, new Identifier(BossesAndMore.MOD_ID, "potted_blue_rose"), new FlowerPotBlock(BLUE_ROSE, FabricBlockSettings.copyOf(Blocks.POTTED_POPPY).nonOpaque()));
+    public static final Block RED_CLOTH = registerBlock("red_cloth", new Block(FabricBlockSettings.copyOf(Blocks.RED_WOOL)));
     public static final Block GLOWING_OBSIDIAN = registerBlock("glowing_obsidian",
             new Block(FabricBlockSettings.copyOf(Blocks.OBSIDIAN).luminance(12)));
+    public static final Block ANCIENT_OAK_PLANKS = registerBlock("ancient_oak_planks", new Block(FabricBlockSettings.copyOf(Blocks.STONE)));
+    public static final Block ORANGE_CLOTH = registerBlock("orange_cloth", new Block(FabricBlockSettings.copyOf(Blocks.ORANGE_WOOL)));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

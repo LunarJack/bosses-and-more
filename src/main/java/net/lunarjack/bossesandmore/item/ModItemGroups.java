@@ -33,6 +33,10 @@ public class ModItemGroups {
                         entries.add(ModBlocks.GLOWING_OBSIDIAN);
                         entries.add(ModBlocks.BLUE_ROSE);
                         entries.add(ModBlocks.FULL_GRASS_BLOCK);
+                        entries.add(ModBlocks.RED_CLOTH);
+                        entries.add(ModBlocks.ANCIENT_OAK_PLANKS);
+                        entries.add(ModBlocks.ORANGE_CLOTH);
+                        entries.add(ModBlocks.ENDISITE);
 
                     }).build());
 

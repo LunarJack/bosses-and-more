@@ -56,23 +56,22 @@ public class ModItems {
     }
     private static void addItemsToBuildingBlocksItemGroup(FabricItemGroupEntries entries) {
         entries.add(PILLAR_SHELL);
+        entries.add(ANCIENT_OAK_PLANKS);
     }
     private static void addItemsToToolsItemGroup(FabricItemGroupEntries entries) {
         entries.add(ENDESITE_HOE);
         entries.add(ENDESITE_SHOVEL);
         entries.add(ENDESITE_PICKAXE);
-        entries.add(ENDESITE_SWORD);
         entries.add(ENDESITE_AXE);
-        entries.add(ENDESITE_HELMET);
-        entries.add(ENDESITE_CHESTPLATE);
-        entries.add(ENDESITE_LEGGINGS);
-        entries.add(ENDESITE_BOOTS);
     }
     private static void addItemsToOperatorItemGroup(FabricItemGroupEntries entries) {
         entries.add(UPDATE);
         entries.add(ATEUPD);
     }
-
+    private static void addItemsToColoredBlocksItemGroup(FabricItemGroupEntries entries) {
+        entries.add(RED_CLOTH);
+        entries.add(ORANGE_CLOTH);
+    }
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, new Identifier(BossesAndMore.MOD_ID, name), item);
     }
@@ -87,6 +86,7 @@ public class ModItems {
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(ModItems::addItemsToBuildingBlocksItemGroup);
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.TOOLS).register(ModItems::addItemsToToolsItemGroup);
         ItemGroupEvents.modifyEntriesEvent(ItemGroups.OPERATOR).register(ModItems::addItemsToOperatorItemGroup);
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.COLORED_BLOCKS).register(ModItems::addItemsToColoredBlocksItemGroup);
 
         }
 

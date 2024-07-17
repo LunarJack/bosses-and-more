@@ -22,6 +22,7 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(ModTags.Blocks.BOSS_DROPS)
                 .add(ModBlocks.PILLAR_SHELL);
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
+                .add(ModBlocks.ANCIENT_OAK_PLANKS)
                 .add(ModBlocks.ENDISITE)
                 .add(ModBlocks.GLOWING_OBSIDIAN)
                 .add(ModBlocks.PILLAR_SHELL);
