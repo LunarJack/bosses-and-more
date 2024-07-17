@@ -28,7 +28,7 @@ public class ModBlocks {
     public static final Block RED_CLOTH = registerBlock("red_cloth", new Block(FabricBlockSettings.copyOf(Blocks.RED_WOOL)));
     public static final Block GLOWING_OBSIDIAN = registerBlock("glowing_obsidian",
             new Block(FabricBlockSettings.copyOf(Blocks.OBSIDIAN).luminance(12)));
-    public static final Block ANCIENT_OAK_PLANKS = registerBlock("ancient_oak_planks", new Block(FabricBlockSettings.copyOf(Blocks.STONE)));
+    public static final Block ANCIENT_OAK_PLANKS = registerBlock("ancient_oak_planks", new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
     public static final Block ORANGE_CLOTH = registerBlock("orange_cloth", new Block(FabricBlockSettings.copyOf(Blocks.ORANGE_WOOL)));
 
     private static Block registerBlock(String name, Block block) {

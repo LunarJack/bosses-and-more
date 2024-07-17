@@ -4,19 +4,17 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8e4092c4-2d22-49ad-800f-a3cf0a0ba476" name="Changes" comment="Alpha 0.1.1">
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Data_Generation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Data_Generation.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server.xml" afterDir="false" />
+    <list default="true" id="8e4092c4-2d22-49ad-800f-a3cf0a0ba476" name="Changes" comment="Alpha 0.1.2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/.fabric/processedMods/modmenu-8.0.1-64b5720b4b825f21.jar" beforeDir="false" afterPath="$PROJECT_DIR$/run/.fabric/processedMods/modmenu-8.0.1-64b5720b4b825f21.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/command_history.txt" beforeDir="false" afterPath="$PROJECT_DIR$/run/command_history.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/config/fabric/indigo-renderer.properties" beforeDir="false" afterPath="$PROJECT_DIR$/run/config/fabric/indigo-renderer.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2024-07-16-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-07-16-1.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2024-07-16-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-07-16-2.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2024-07-16-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-07-16-3.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2024-07-16-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-07-16-4.log.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/logs/2024-07-16-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-07-16-5.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2024-07-17-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-07-17-1.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2024-07-17-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-07-17-2.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2024-07-17-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-07-17-3.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2024-07-17-4.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-07-17-4.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2024-07-17-5.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-07-17-5.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2024-07-17-6.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-07-17-6.log.gz" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/logs/2024-07-17-7.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/2024-07-17-7.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-1.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-1.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-2.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-2.log.gz" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/logs/debug-3.log.gz" beforeDir="false" afterPath="$PROJECT_DIR$/run/logs/debug-3.log.gz" afterDir="false" />
@@ -35,7 +33,6 @@
       <change beforePath="$PROJECT_DIR$/run/saves/Test World/entities/r.1.1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World/entities/r.1.1.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/Test World/entities/r.1.2.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World/entities/r.1.2.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/Test World/entities/r.2.1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World/entities/r.2.1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/saves/Test World/entities/r.2.2.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World/entities/r.2.2.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/Test World/level.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World/level.dat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/Test World/level.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World/level.dat_old" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/Test World/poi/r.2.1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World/poi/r.2.1.mca" afterDir="false" />
@@ -49,38 +46,9 @@
       <change beforePath="$PROJECT_DIR$/run/saves/Test World/region/r.2.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World/region/r.2.0.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/Test World/region/r.2.1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World/region/r.2.1.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/Test World/region/r.2.2.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World/region/r.2.2.mca" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/run/saves/Test World/region/r.3.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World/region/r.3.0.mca" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/saves/Test World/region/r.3.1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/saves/Test World/region/r.3.1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/server.properties" beforeDir="false" afterPath="$PROJECT_DIR$/run/server.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/run/usercache.json" beforeDir="false" afterPath="$PROJECT_DIR$/run/usercache.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/world/DIM-1/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/world/DIM-1/data/raids.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/world/DIM1/data/raids_end.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/world/DIM1/data/raids_end.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/world/data/raids.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/world/data/raids.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/world/entities/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/world/entities/r.0.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/world/level.dat" beforeDir="false" afterPath="$PROJECT_DIR$/run/world/level.dat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/world/level.dat_old" beforeDir="false" afterPath="$PROJECT_DIR$/run/world/level.dat_old" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/world/region/r.-1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/world/region/r.-1.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/world/region/r.-1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/world/region/r.-1.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/world/region/r.-1.1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/world/region/r.-1.1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/world/region/r.0.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/world/region/r.0.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/world/region/r.0.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/world/region/r.0.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/world/region/r.0.1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/world/region/r.0.1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/world/region/r.1.-1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/world/region/r.1.-1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/world/region/r.1.0.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/world/region/r.1.0.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/run/world/region/r.1.1.mca" beforeDir="false" afterPath="$PROJECT_DIR$/run/world/region/r.1.1.mca" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/generated/.cache/132583a155c5d372c78546bd7b9d6b5471a7c081" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/.cache/132583a155c5d372c78546bd7b9d6b5471a7c081" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/generated/.cache/2484474954666e29b03b0386562a4e4ac2b215b5" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/.cache/2484474954666e29b03b0386562a4e4ac2b215b5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/generated/.cache/4cfd4bfa06b25e3145e35bb22407db525ee770f8" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/.cache/4cfd4bfa06b25e3145e35bb22407db525ee770f8" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/generated/.cache/6ffacbd0a98e1f6afcc97f39001ab88ce2a61dfd" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/.cache/6ffacbd0a98e1f6afcc97f39001ab88ce2a61dfd" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/generated/.cache/7bd558801dd75200db88663f42b7806fbc4b08d3" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/.cache/7bd558801dd75200db88663f42b7806fbc4b08d3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/generated/.cache/c92ce47eed0db9e6df3d058a04f502f7e98dd26c" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/.cache/c92ce47eed0db9e6df3d058a04f502f7e98dd26c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/generated/data/minecraft/tags/blocks/mineable/pickaxe.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/generated/data/minecraft/tags/blocks/mineable/pickaxe.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/lunarjack/bossesandmore/block/ModBlocks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/lunarjack/bossesandmore/block/ModBlocks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/lunarjack/bossesandmore/datagen/ModBlockTagProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/lunarjack/bossesandmore/datagen/ModBlockTagProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/lunarjack/bossesandmore/datagen/ModModelProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/lunarjack/bossesandmore/datagen/ModModelProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/lunarjack/bossesandmore/item/ModItemGroups.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/lunarjack/bossesandmore/item/ModItemGroups.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/net/lunarjack/bossesandmore/item/ModItems.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/net/lunarjack/bossesandmore/item/ModItems.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/bossesandmore/lang/en_us.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/bossesandmore/lang/en_us.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/fabric.mod.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/fabric.mod.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -294,7 +262,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721141997729</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Alpha 0.1.2">
+      <option name="closed" value="true" />
+      <created>1721252745688</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1721252745688</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="UnknownFeatures">
@@ -305,6 +281,7 @@
     <MESSAGE value="Closed Alpha 0.1" />
     <MESSAGE value="Alpha 0.1" />
     <MESSAGE value="Alpha 0.1.1" />
-    <option name="LAST_COMMIT_MESSAGE" value="Alpha 0.1.1" />
+    <MESSAGE value="Alpha 0.1.2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Alpha 0.1.2" />
   </component>
 </project>

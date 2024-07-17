@@ -20,7 +20,9 @@ public class ModLootTableProvider extends FabricBlockLootTableProvider {
         addPottedPlantDrops(ModBlocks.POTTED_LAST_ROSE);
         addDrop(ModBlocks.BLUE_ROSE);
         addPottedPlantDrops(ModBlocks.POTTED_BLUE_ROSE);
-
+        addDrop(ModBlocks.RED_CLOTH);
+        addDrop(ModBlocks.ORANGE_CLOTH);
+        addDrop(ModBlocks.ANCIENT_OAK_PLANKS);
         addDrop(ModBlocks.ENDISITE, oreDrops(ModBlocks.ENDISITE, ModItems.ENDESITE_CLUMP));
     }
 }

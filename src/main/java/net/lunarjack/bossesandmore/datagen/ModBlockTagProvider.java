@@ -22,10 +22,11 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
         getOrCreateTagBuilder(ModTags.Blocks.BOSS_DROPS)
                 .add(ModBlocks.PILLAR_SHELL);
         getOrCreateTagBuilder(BlockTags.PICKAXE_MINEABLE)
-                .add(ModBlocks.ANCIENT_OAK_PLANKS)
                 .add(ModBlocks.ENDISITE)
                 .add(ModBlocks.GLOWING_OBSIDIAN)
                 .add(ModBlocks.PILLAR_SHELL);
+        getOrCreateTagBuilder(BlockTags.AXE_MINEABLE)
+                .add(ModBlocks.ANCIENT_OAK_PLANKS);
         getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
                 .add(ModBlocks.GLOWING_OBSIDIAN);
         getOrCreateTagBuilder(TagKey.of(RegistryKeys.BLOCK, new Identifier("fabric", "needs_tool_level-4")))
