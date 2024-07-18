@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8e4092c4-2d22-49ad-800f-a3cf0a0ba476" name="Changes" comment="Alpha 0.1.2.1">
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Data_Generation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Data_Generation.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Minecraft_Server.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gradle.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/bossesandmore/textures/item/endesite_axe.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/bossesandmore/textures/item/endesite_axe.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/bossesandmore/textures/item/endesite_hoe.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/bossesandmore/textures/item/endesite_hoe.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/bossesandmore/textures/item/endesite_pickaxe.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/bossesandmore/textures/item/endesite_pickaxe.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/bossesandmore/textures/item/endesite_shovel.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/bossesandmore/textures/item/endesite_shovel.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -243,7 +250,15 @@
       <option name="project" value="LOCAL" />
       <updated>1721254989975</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Alpha 0.1.2.1">
+      <option name="closed" value="true" />
+      <created>1721255221384</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1721255221384</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="UnknownFeatures">
