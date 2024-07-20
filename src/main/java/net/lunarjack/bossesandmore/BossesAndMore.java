@@ -34,6 +34,8 @@ public static final String MOD_ID = "bossesandmore";
 		ModVillagers.registerVillagers();
 		ModSounds.RegisterSounds();
 
+		ModEntities.registerModEntities();
+
 		FabricDefaultAttributeRegistry.register(ModEntities.PILLAR, PillarEntity.createPillarAttributes());
 	}
 }

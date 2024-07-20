@@ -14,4 +14,7 @@ public class ModEntities {
     public static final EntityType<PillarEntity> PILLAR = Registry.register(Registries.ENTITY_TYPE,
             new Identifier(BossesAndMore.MOD_ID, "pillar"),
             FabricEntityTypeBuilder.create(SpawnGroup.MISC, PillarEntity::new).dimensions(EntityDimensions.fixed(1f, 3f)).build());
+    public static void registerModEntities() {
+        BossesAndMore.LOGGER.info("Registering Entities for " + BossesAndMore.MOD_ID);
+    }
 }

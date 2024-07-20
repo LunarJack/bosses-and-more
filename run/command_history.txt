@@ -4,3 +4,9 @@
 /locate structure minecraft:village_plains
 /tp @s 1136 ~ 816
 /give Player606 minecraft:petrified_oak_slab
+/summon bossesandmore:pillar
+/summon minecraft:villager
+/summon bossesandmore:pillar
+/summon minecraft:villager
+/time set day
+/summon bossesandmore:pillar

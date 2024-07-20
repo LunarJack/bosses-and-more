@@ -1,24 +1,27 @@
 package net.lunarjack.bossesandmore.entity.client;
 
+import net.lunarjack.bossesandmore.entity.animation.ModAnimations;
 import net.lunarjack.bossesandmore.entity.custom.PillarEntity;
 import net.minecraft.client.model.*;
 import net.minecraft.client.render.entity.model.SinglePartEntityModel;
 import net.minecraft.client.render.VertexConsumer;
 import net.minecraft.client.util.math.MatrixStack;
+import net.minecraft.util.math.MathHelper;
 
-   
+
 public class PillarModel<T extends PillarEntity> extends SinglePartEntityModel<T> {
 	private final ModelPart pillar;
+	private final ModelPart eyelid;
 	private final ModelPart bottom;
 	private final ModelPart middle;
 	private final ModelPart head;
-	private final ModelPart eyelid;
+
 	public PillarModel(ModelPart root) {
 		this.pillar = root.getChild("pillar");
-		this.bottom = root.getChild("bottom");
-		this.middle = root.getChild("middle");
-		this.head = root.getChild("head");
-		this.eyelid = root.getChild("eyelid");
+		this.eyelid = pillar.getChild("eyelid");
+		this.bottom = pillar.getChild("bottom");
+		this.middle = pillar.getChild("middle");
+		this.head = pillar.getChild("head");
 	}
 	public static TexturedModelData getTexturedModelData() {
 		ModelData modelData = new ModelData();
@@ -67,8 +70,16 @@ public class PillarModel<T extends PillarEntity> extends SinglePartEntityModel<T
 		ModelPartData eyelid = pillar.addChild("eyelid", ModelPartBuilder.create().uv(8, 19).cuboid(-3.0F, -46.0F, -8.0F, 6.0F, 7.0F, 1.0F, new Dilation(0.0F)), ModelTransform.pivot(0.0F, 0.0F, 0.0F));
 		return TexturedModelData.of(modelData, 128, 128);
 	}
+
 	@Override
 	public void setAngles(PillarEntity entity, float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw, float headPitch) {
+		 this.getPart().traverse().forEach(ModelPart::resetTransform);
+		 this.setHeadAngles(netHeadYaw, headPitch);
+		 this.updateAnimation(entity.idleAnimationState, ModAnimations.BATTLE_IDLE, ageInTicks, 1f);
+	}
+	private void setHeadAngles(float headYaw, float headPitch) {
+		headYaw = MathHelper.clamp(headYaw, -30.0f, 30.0f);
+		headPitch = MathHelper.clamp(headPitch, -25.0f, 45.0f);
 	}
 	@Override
 	public void render(MatrixStack matrices, VertexConsumer vertexConsumer, int light, int overlay, float red, float green, float blue, float alpha) {

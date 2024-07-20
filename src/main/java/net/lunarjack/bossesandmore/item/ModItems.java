@@ -28,7 +28,7 @@ public class ModItems {
     public static final Item ENDESITE_CHESTPLATE = registerItem("endesite_chestplate", new ModArmorItem(ModArmorMaterials.ENDESITE, ArmorItem.Type.CHESTPLATE, new FabricItemSettings()));
     public static final Item ENDESITE_LEGGINGS = registerItem("endesite_leggings", new ArmorItem(ModArmorMaterials.ENDESITE, ArmorItem.Type.LEGGINGS, new FabricItemSettings()));
     public static final Item ENDESITE_BOOTS = registerItem("endesite_boots", new ArmorItem(ModArmorMaterials.ENDESITE, ArmorItem.Type.BOOTS, new FabricItemSettings()));
-    public static final Item OPAL_CLUMP = registerItem("opal_clump", new Item(new FabricItemSettings()));
+    public static final Item RUBY_CLUMP = registerItem("ruby_clump", new Item(new FabricItemSettings()));
     public static final Item TOPAZ_CLUMP = registerItem("topaz_clump", new Item(new FabricItemSettings()));
 
     private static void addItemsToIngredientsItemGroup(FabricItemGroupEntries entries) {
