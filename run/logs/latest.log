@@ -1,6 +1,6 @@
-[14:35:57] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.20.2 with Fabric Loader 0.15.11
-[14:35:57] [ForkJoinPool-1-worker-1/WARN] (FabricLoader/Metadata) Mod bossesandmore uses the version Alpha 0.1.3.0 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'Alpha 0'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
-[14:35:57] [main/INFO] (FabricLoader) Loading 57 mods:
+[09:24:37] [main/INFO] (FabricLoader/GameProvider) Loading Minecraft 1.20.2 with Fabric Loader 0.15.11
+[09:24:37] [ForkJoinPool-1-worker-1/WARN] (FabricLoader/Metadata) Mod bossesandmore uses the version Alpha 0.1.3.0 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'Alpha 0'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[09:24:37] [main/INFO] (FabricLoader) Loading 57 mods:
 	- bossesandmore Alpha 0.1.3.0
 	- fabric-api 0.91.6+1.20.2
 	- fabric-api-base 0.4.33+fce67b32a0
@@ -58,14 +58,14 @@
 	- minecraft 1.20.2
 	- mixinextras 0.3.5
 	- modmenu 8.0.1
-[14:35:59] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/Users/Lennon/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.13.3+mixin.0.8.5/9527e6b0d2449408958fd1302594dc65ec5ade9c/sponge-mixin-0.13.3+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
-[14:35:59] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
-[14:35:59] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_16
-[14:35:59] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
-[14:36:00] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
-[14:36:02] [Datafixer Bootstrap/INFO] (Minecraft) 192 Datafixer optimizations took 65 milliseconds
-[14:36:03] [Render thread/INFO] (Minecraft) Environment: Environment[accountsHost=https://api.mojang.com, sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[14:36:03] [Render thread/ERROR] (Minecraft) Failed to verify authentication
+[09:24:39] [main/INFO] (FabricLoader/Mixin) SpongePowered MIXIN Subsystem Version=0.8.5 Source=file:/Users/Lennon/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.13.3+mixin.0.8.5/9527e6b0d2449408958fd1302594dc65ec5ade9c/sponge-mixin-0.13.3+mixin.0.8.5.jar Service=Knot/Fabric Env=CLIENT
+[09:24:39] [main/INFO] (FabricLoader/Mixin) Loaded Fabric development mappings for mixin remapper!
+[09:24:39] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_16
+[09:24:39] [main/INFO] (FabricLoader/Mixin) Compatibility level set to JAVA_17
+[09:24:40] [main/INFO] (FabricLoader/MixinExtras|Service) Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.3.5).
+[09:24:42] [Datafixer Bootstrap/INFO] (Minecraft) 192 Datafixer optimizations took 81 milliseconds
+[09:24:43] [Render thread/INFO] (Minecraft) Environment: Environment[accountsHost=https://api.mojang.com, sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[09:24:44] [Render thread/ERROR] (Minecraft) Failed to verify authentication
 com.mojang.authlib.exceptions.InvalidCredentialsException: Status: 401
 	at com.mojang.authlib.exceptions.MinecraftClientHttpException.toAuthenticationException(MinecraftClientHttpException.java:59) ~[authlib-5.0.47.jar:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:159) ~[authlib-5.0.47.jar:?]
@@ -83,42 +83,44 @@ Caused by: com.mojang.authlib.exceptions.MinecraftClientHttpException: Status: 4
 	at com.mojang.authlib.minecraft.client.MinecraftClient.get(MinecraftClient.java:57) ~[authlib-5.0.47.jar:?]
 	at com.mojang.authlib.yggdrasil.YggdrasilUserApiService.fetchProperties(YggdrasilUserApiService.java:130) ~[authlib-5.0.47.jar:?]
 	... 9 more
-[14:36:03] [Render thread/INFO] (Minecraft) Setting user: Player736
-[14:36:03] [Render thread/INFO] (fabric-networking-api-v1) Force Packet Serialization is enabled to mimic remote connection on single player, this is the default behaviour on dev env. Add -Dfabric-api.networking.force-packet-serialization=false JVM arg to disable it.
-[14:36:03] [Render thread/INFO] (bossesandmore) Registering Item Groups for bossesandmore
-[14:36:03] [Render thread/INFO] (bossesandmore) Registering Mod Items for bossesandmore
-[14:36:03] [Render thread/INFO] (bossesandmore) Registering ModBlocks for bossesandmore
-[14:36:03] [Render thread/INFO] (bossesandmore) Registering Villagers bossesandmore
-[14:36:03] [Render thread/INFO] (bossesandmore) Registering Sounds for bossesandmore
-[14:36:03] [Render thread/INFO] (bossesandmore) Registering Entities for bossesandmore
-[14:36:03] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
-[14:36:04] [Worker-Main-2/INFO] (Mod Menu/Update Checker) Checking mod updates...
-[14:36:04] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.3.2-snapshot
-[14:36:04] [Render thread/INFO] (Minecraft) [STDERR]: [LWJGL] [ThreadLocalUtil] Unsupported JNI version detected, this may result in a crash. Please inform LWJGL developers.
-[14:36:05] [Render thread/INFO] (Minecraft) Reloading ResourceManager: vanilla, fabric (fabric-mining-level-api-v1, fabric-model-loading-api-v1, fabric-crash-report-info-v1, fabric-lifecycle-events-v1, fabric-rendering-fluids-v1, fabric-command-api-v2, fabric-networking-api-v1, fabric-events-interaction-v0, fabric-gametest-api-v1, fabric-api-base, fabric-convention-tags-v1, fabric-biome-api-v1, fabric-resource-conditions-api-v1, fabric-renderer-api-v1, fabric-registry-sync-v0, fabric-rendering-v1, fabric-screen-handler-api-v1, fabric-rendering-data-attachment-v1, fabric-particles-v1, fabric-blockrenderlayer-v1, fabric-screen-api-v1, fabric-models-v0, fabric-sound-api-v1, fabric-block-api-v1, fabric-key-binding-api-v1, fabric-commands-v0, fabric-events-lifecycle-v0, fabric-renderer-indigo, fabric-object-builder-api-v1, fabric-recipe-api-v1, fabricloader, fabric-block-view-api-v2, fabric-transitive-access-wideners-v1, fabric-data-generation-api-v1, fabric-rendering-v0, fabric-game-rule-api-v1, fabric-entity-events-v1, fabric-renderer-registries-v1, fabric-api-lookup-api-v1, modmenu, fabric-dimensions-v1, fabric-loot-api-v2, fabric-api, fabric-content-registries-v0, fabric-item-group-api-v1, fabric-command-api-v1, fabric-transfer-api-v1, fabric-item-api-v1, fabric-resource-loader-v0, bossesandmore, fabric-keybindings-v0, fabric-client-tags-api-v1, fabric-message-api-v1, fabric-containers-v0)
-[14:36:05] [Worker-Main-8/INFO] (Minecraft) Found unifont_all_no_pua-15.0.06.hex, loading
-[14:36:05] [Worker-Main-4/WARN] (Minecraft) Unable to load model: 'bossesandmore:topaz_clump#inventory' referenced from: bossesandmore:topaz_clump#inventory: java.io.FileNotFoundException: bossesandmore:models/item/topaz_clump.json
-[14:36:05] [Worker-Main-4/WARN] (Minecraft) Unable to load model: 'bossesandmore:ruby_clump#inventory' referenced from: bossesandmore:ruby_clump#inventory: java.io.FileNotFoundException: bossesandmore:models/item/ruby_clump.json
-[14:36:06] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.goat_horn.play
-[14:36:06] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[14:36:06] [Render thread/INFO] (Minecraft) OpenAL initialized on device MacBook Air Speakers
-[14:36:06] [Render thread/INFO] (Minecraft) Sound engine started
-[14:36:06] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
-[14:36:06] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
-[14:36:06] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[14:36:06] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[14:36:06] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
-[14:36:06] [Render thread/INFO] (Minecraft) Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
-[14:36:06] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[14:36:06] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[14:36:06] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[14:36:06] [Render thread/WARN] (Minecraft) Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[14:36:06] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
-[14:36:06] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[14:36:06] [Render thread/INFO] (Minecraft) Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[14:36:06] [Render thread/INFO] (Minecraft) Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
-[14:36:07] [IO-Worker-1/INFO] (Minecraft) Could not authorize you against Realms server: Invalid session id
-[14:36:07] [IO-Worker-1/ERROR] (Minecraft) Couldn't connect to realms
+[09:24:44] [Render thread/INFO] (Minecraft) Setting user: Player80
+[09:24:44] [Render thread/INFO] (fabric-networking-api-v1) Force Packet Serialization is enabled to mimic remote connection on single player, this is the default behaviour on dev env. Add -Dfabric-api.networking.force-packet-serialization=false JVM arg to disable it.
+[09:24:44] [Render thread/INFO] (bossesandmore) Registering Item Groups for bossesandmore
+[09:24:44] [Render thread/INFO] (bossesandmore) Registering Mod Items for bossesandmore
+[09:24:44] [Render thread/INFO] (bossesandmore) Registering ModBlocks for bossesandmore
+[09:24:44] [Render thread/INFO] (bossesandmore) Registering Villagers bossesandmore
+[09:24:44] [Render thread/INFO] (bossesandmore) Registering Sounds for bossesandmore
+[09:24:44] [Render thread/INFO] (bossesandmore) Registering Entities for bossesandmore
+[09:24:44] [Render thread/INFO] (bossesandmore) Registering Block Entities for bossesandmore
+[09:24:44] [Render thread/INFO] (bossesandmore) Registering Screen Handlers for bossesandmore
+[09:24:44] [Render thread/INFO] (Indigo) [Indigo] Registering Indigo renderer!
+[09:24:44] [Worker-Main-2/INFO] (Mod Menu/Update Checker) Checking mod updates...
+[09:24:44] [Render thread/INFO] (Minecraft) Backend library: LWJGL version 3.3.2-snapshot
+[09:24:44] [Render thread/INFO] (Minecraft) [STDERR]: [LWJGL] [ThreadLocalUtil] Unsupported JNI version detected, this may result in a crash. Please inform LWJGL developers.
+[09:24:45] [Render thread/INFO] (Minecraft) Reloading ResourceManager: vanilla, fabric (fabric-keybindings-v0, fabric-api-lookup-api-v1, fabric-networking-api-v1, fabric-lifecycle-events-v1, fabric-sound-api-v1, fabric-convention-tags-v1, bossesandmore, fabric-block-api-v1, fabric-events-interaction-v0, fabric-gametest-api-v1, fabric-client-tags-api-v1, fabric-resource-loader-v0, fabric-key-binding-api-v1, fabric-api-base, fabric-screen-handler-api-v1, fabric-registry-sync-v0, fabric-item-group-api-v1, fabricloader, fabric-entity-events-v1, fabric-recipe-api-v1, fabric-block-view-api-v2, fabric-renderer-registries-v1, fabric-api, fabric-resource-conditions-api-v1, fabric-rendering-v0, fabric-item-api-v1, fabric-content-registries-v0, fabric-containers-v0, fabric-renderer-indigo, fabric-command-api-v2, fabric-crash-report-info-v1, fabric-screen-api-v1, fabric-blockrenderlayer-v1, fabric-transfer-api-v1, fabric-rendering-v1, fabric-object-builder-api-v1, modmenu, fabric-model-loading-api-v1, fabric-biome-api-v1, fabric-command-api-v1, fabric-commands-v0, fabric-rendering-data-attachment-v1, fabric-dimensions-v1, fabric-particles-v1, fabric-message-api-v1, fabric-mining-level-api-v1, fabric-data-generation-api-v1, fabric-transitive-access-wideners-v1, fabric-models-v0, fabric-rendering-fluids-v1, fabric-renderer-api-v1, fabric-game-rule-api-v1, fabric-loot-api-v2, fabric-events-lifecycle-v0)
+[09:24:45] [Worker-Main-4/INFO] (Minecraft) Found unifont_all_no_pua-15.0.06.hex, loading
+[09:24:46] [Worker-Main-7/WARN] (Minecraft) Unable to load model: 'bossesandmore:topaz_clump#inventory' referenced from: bossesandmore:topaz_clump#inventory: java.io.FileNotFoundException: bossesandmore:models/item/topaz_clump.json
+[09:24:46] [Worker-Main-7/WARN] (Minecraft) Unable to load model: 'bossesandmore:ruby_clump#inventory' referenced from: bossesandmore:ruby_clump#inventory: java.io.FileNotFoundException: bossesandmore:models/item/ruby_clump.json
+[09:24:46] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.goat_horn.play
+[09:24:46] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:entity.goat.screaming.horn_break
+[09:24:46] [Render thread/INFO] (Minecraft) OpenAL initialized on device MacBook Air Speakers
+[09:24:46] [Render thread/INFO] (Minecraft) Sound engine started
+[09:24:46] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
+[09:24:46] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
+[09:24:46] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
+[09:24:46] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
+[09:24:46] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
+[09:24:46] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
+[09:24:46] [Render thread/INFO] (Minecraft) Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
+[09:24:46] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
+[09:24:46] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
+[09:24:47] [Render thread/WARN] (Minecraft) Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
+[09:24:47] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
+[09:24:47] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
+[09:24:47] [Render thread/INFO] (Minecraft) Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
+[09:24:47] [Render thread/INFO] (Minecraft) Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
+[09:24:47] [IO-Worker-1/INFO] (Minecraft) Could not authorize you against Realms server: Invalid session id
+[09:24:47] [IO-Worker-1/ERROR] (Minecraft) Couldn't connect to realms
 net.minecraft.client.realms.exception.RealmsServiceException: Realms authentication error with message 'Invalid session id'
 	at net.minecraft.client.realms.RealmsClient.execute(RealmsClient.java:397) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
 	at net.minecraft.client.realms.RealmsClient.clientCompatible(RealmsClient.java:186) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
@@ -127,209 +129,79 @@ net.minecraft.client.realms.exception.RealmsServiceException: Realms authenticat
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144) ~[?:?]
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642) ~[?:?]
 	at java.lang.Thread.run(Thread.java:1583) ~[?:?]
-[14:36:12] [Render thread/INFO] (Minecraft) Loaded 7 recipes
-[14:36:12] [Render thread/INFO] (Minecraft) Loaded 1274 advancements
-[14:36:12] [Render thread/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 64 new biomes in 944.0 μs
-[14:36:12] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.20.2
-[14:36:12] [Server thread/INFO] (Minecraft) Generating keypair
-[14:36:13] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
-[14:36:15] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[14:36:15] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[14:36:15] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[14:36:15] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
-[14:36:15] [Render thread/INFO] (Minecraft) Preparing spawn area: 6%
-[14:36:15] [Render thread/INFO] (Minecraft) Time elapsed: 2297 ms
-[14:36:16] [Server thread/INFO] (Minecraft) Changing view distance to 12, from 10
-[14:36:16] [Server thread/INFO] (Minecraft) Changing simulation distance to 13, from 0
-[14:36:16] [Server thread/INFO] (Minecraft) Player736[local:E:c4ffe45c] logged in with entity id 66 at (1139.18954374126, 64.0, 776.3659140653541)
-[14:36:16] [Server thread/INFO] (Minecraft) Player736 joined the game
-[14:36:16] [Render thread/INFO] (Minecraft) Loaded 3 advancements
-[14:36:29] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[14:36:29] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test World]'/minecraft:overworld
-[14:36:29] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test World]'/minecraft:the_end
-[14:36:29] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test World]'/minecraft:the_nether
-[14:36:37] [Render thread/INFO] (Minecraft) Reloading ResourceManager: vanilla, fabric (fabric-mining-level-api-v1, fabric-model-loading-api-v1, fabric-crash-report-info-v1, fabric-lifecycle-events-v1, fabric-rendering-fluids-v1, fabric-command-api-v2, fabric-networking-api-v1, fabric-events-interaction-v0, fabric-gametest-api-v1, fabric-api-base, fabric-convention-tags-v1, fabric-biome-api-v1, fabric-resource-conditions-api-v1, fabric-renderer-api-v1, fabric-registry-sync-v0, fabric-rendering-v1, fabric-screen-handler-api-v1, fabric-rendering-data-attachment-v1, fabric-particles-v1, fabric-blockrenderlayer-v1, fabric-screen-api-v1, fabric-models-v0, fabric-sound-api-v1, fabric-block-api-v1, fabric-key-binding-api-v1, fabric-commands-v0, fabric-events-lifecycle-v0, fabric-renderer-indigo, fabric-object-builder-api-v1, fabric-recipe-api-v1, fabricloader, fabric-block-view-api-v2, fabric-transitive-access-wideners-v1, fabric-data-generation-api-v1, fabric-rendering-v0, fabric-game-rule-api-v1, fabric-entity-events-v1, fabric-renderer-registries-v1, fabric-api-lookup-api-v1, modmenu, fabric-dimensions-v1, fabric-loot-api-v2, fabric-api, fabric-content-registries-v0, fabric-item-group-api-v1, fabric-command-api-v1, fabric-transfer-api-v1, fabric-item-api-v1, fabric-resource-loader-v0, bossesandmore, fabric-keybindings-v0, fabric-client-tags-api-v1, fabric-message-api-v1, fabric-containers-v0)
-[14:36:37] [Worker-Main-6/INFO] (Minecraft) Found unifont_all_no_pua-15.0.06.hex, loading
-[14:36:38] [Worker-Main-7/WARN] (Minecraft) Unable to load model: 'bossesandmore:topaz_clump#inventory' referenced from: bossesandmore:topaz_clump#inventory: java.io.FileNotFoundException: bossesandmore:models/item/topaz_clump.json
-[14:36:38] [Worker-Main-7/WARN] (Minecraft) Unable to load model: 'bossesandmore:ruby_clump#inventory' referenced from: bossesandmore:ruby_clump#inventory: java.io.FileNotFoundException: bossesandmore:models/item/ruby_clump.json
-[14:36:38] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.goat_horn.play
-[14:36:38] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[14:36:38] [Render thread/INFO] (Minecraft) OpenAL initialized on device MacBook Air Speakers
-[14:36:38] [Render thread/INFO] (Minecraft) Sound engine started
-[14:36:38] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
-[14:36:38] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
-[14:36:38] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[14:36:38] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[14:36:38] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
-[14:36:38] [Render thread/INFO] (Minecraft) Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
-[14:36:38] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[14:36:38] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[14:36:38] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[14:36:38] [Render thread/WARN] (Minecraft) Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[14:36:38] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
-[14:36:38] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[14:36:38] [Render thread/INFO] (Minecraft) Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[14:36:38] [Render thread/INFO] (Minecraft) Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
-[14:36:45] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[14:36:45] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test World]'/minecraft:overworld
-[14:36:45] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test World]'/minecraft:the_end
-[14:36:45] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test World]'/minecraft:the_nether
-[14:36:51] [Render thread/INFO] (Minecraft) Reloading ResourceManager: vanilla, fabric (fabric-mining-level-api-v1, fabric-model-loading-api-v1, fabric-crash-report-info-v1, fabric-lifecycle-events-v1, fabric-rendering-fluids-v1, fabric-command-api-v2, fabric-networking-api-v1, fabric-events-interaction-v0, fabric-gametest-api-v1, fabric-api-base, fabric-convention-tags-v1, fabric-biome-api-v1, fabric-resource-conditions-api-v1, fabric-renderer-api-v1, fabric-registry-sync-v0, fabric-rendering-v1, fabric-screen-handler-api-v1, fabric-rendering-data-attachment-v1, fabric-particles-v1, fabric-blockrenderlayer-v1, fabric-screen-api-v1, fabric-models-v0, fabric-sound-api-v1, fabric-block-api-v1, fabric-key-binding-api-v1, fabric-commands-v0, fabric-events-lifecycle-v0, fabric-renderer-indigo, fabric-object-builder-api-v1, fabric-recipe-api-v1, fabricloader, fabric-block-view-api-v2, fabric-transitive-access-wideners-v1, fabric-data-generation-api-v1, fabric-rendering-v0, fabric-game-rule-api-v1, fabric-entity-events-v1, fabric-renderer-registries-v1, fabric-api-lookup-api-v1, modmenu, fabric-dimensions-v1, fabric-loot-api-v2, fabric-api, fabric-content-registries-v0, fabric-item-group-api-v1, fabric-command-api-v1, fabric-transfer-api-v1, fabric-item-api-v1, fabric-resource-loader-v0, bossesandmore, fabric-keybindings-v0, fabric-client-tags-api-v1, fabric-message-api-v1, fabric-containers-v0)
-[14:36:51] [Worker-Main-2/INFO] (Minecraft) Found unifont_all_no_pua-15.0.06.hex, loading
-[14:36:52] [Worker-Main-3/WARN] (Minecraft) Unable to load model: 'bossesandmore:topaz_clump#inventory' referenced from: bossesandmore:topaz_clump#inventory: java.io.FileNotFoundException: bossesandmore:models/item/topaz_clump.json
-[14:36:52] [Worker-Main-3/WARN] (Minecraft) Unable to load model: 'bossesandmore:ruby_clump#inventory' referenced from: bossesandmore:ruby_clump#inventory: java.io.FileNotFoundException: bossesandmore:models/item/ruby_clump.json
-[14:36:52] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.goat_horn.play
-[14:36:52] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[14:36:52] [Render thread/INFO] (Minecraft) OpenAL initialized on device MacBook Air Speakers
-[14:36:52] [Render thread/INFO] (Minecraft) Sound engine started
-[14:36:52] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
-[14:36:52] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
-[14:36:52] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[14:36:52] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[14:36:52] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
-[14:36:52] [Render thread/INFO] (Minecraft) Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
-[14:36:52] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[14:36:52] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[14:36:52] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[14:36:52] [Render thread/WARN] (Minecraft) Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[14:36:52] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
-[14:36:52] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[14:36:52] [Render thread/INFO] (Minecraft) Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[14:36:52] [Render thread/INFO] (Minecraft) Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
-[14:36:58] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[14:36:58] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test World]'/minecraft:overworld
-[14:36:58] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test World]'/minecraft:the_end
-[14:36:58] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test World]'/minecraft:the_nether
-[14:37:01] [Render thread/INFO] (Minecraft) Reloading ResourceManager: vanilla, fabric (fabric-mining-level-api-v1, fabric-model-loading-api-v1, fabric-crash-report-info-v1, fabric-lifecycle-events-v1, fabric-rendering-fluids-v1, fabric-command-api-v2, fabric-networking-api-v1, fabric-events-interaction-v0, fabric-gametest-api-v1, fabric-api-base, fabric-convention-tags-v1, fabric-biome-api-v1, fabric-resource-conditions-api-v1, fabric-renderer-api-v1, fabric-registry-sync-v0, fabric-rendering-v1, fabric-screen-handler-api-v1, fabric-rendering-data-attachment-v1, fabric-particles-v1, fabric-blockrenderlayer-v1, fabric-screen-api-v1, fabric-models-v0, fabric-sound-api-v1, fabric-block-api-v1, fabric-key-binding-api-v1, fabric-commands-v0, fabric-events-lifecycle-v0, fabric-renderer-indigo, fabric-object-builder-api-v1, fabric-recipe-api-v1, fabricloader, fabric-block-view-api-v2, fabric-transitive-access-wideners-v1, fabric-data-generation-api-v1, fabric-rendering-v0, fabric-game-rule-api-v1, fabric-entity-events-v1, fabric-renderer-registries-v1, fabric-api-lookup-api-v1, modmenu, fabric-dimensions-v1, fabric-loot-api-v2, fabric-api, fabric-content-registries-v0, fabric-item-group-api-v1, fabric-command-api-v1, fabric-transfer-api-v1, fabric-item-api-v1, fabric-resource-loader-v0, bossesandmore, fabric-keybindings-v0, fabric-client-tags-api-v1, fabric-message-api-v1, fabric-containers-v0)
-[14:37:01] [Worker-Main-6/INFO] (Minecraft) Found unifont_all_no_pua-15.0.06.hex, loading
-[14:37:01] [Worker-Main-2/WARN] (Minecraft) Unable to load model: 'bossesandmore:topaz_clump#inventory' referenced from: bossesandmore:topaz_clump#inventory: java.io.FileNotFoundException: bossesandmore:models/item/topaz_clump.json
-[14:37:01] [Worker-Main-2/WARN] (Minecraft) Unable to load model: 'bossesandmore:ruby_clump#inventory' referenced from: bossesandmore:ruby_clump#inventory: java.io.FileNotFoundException: bossesandmore:models/item/ruby_clump.json
-[14:37:01] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.goat_horn.play
-[14:37:01] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[14:37:01] [Render thread/INFO] (Minecraft) OpenAL initialized on device MacBook Air Speakers
-[14:37:01] [Render thread/INFO] (Minecraft) Sound engine started
-[14:37:02] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
-[14:37:02] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
-[14:37:02] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[14:37:02] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[14:37:02] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
-[14:37:02] [Render thread/INFO] (Minecraft) Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
-[14:37:02] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[14:37:02] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[14:37:02] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[14:37:02] [Render thread/WARN] (Minecraft) Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[14:37:02] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
-[14:37:02] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[14:37:02] [Render thread/INFO] (Minecraft) Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[14:37:02] [Render thread/INFO] (Minecraft) Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
-[14:37:08] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[14:37:08] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test World]'/minecraft:overworld
-[14:37:08] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test World]'/minecraft:the_end
-[14:37:08] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test World]'/minecraft:the_nether
-[14:37:11] [Render thread/INFO] (Minecraft) Reloading ResourceManager: vanilla, fabric (fabric-mining-level-api-v1, fabric-model-loading-api-v1, fabric-crash-report-info-v1, fabric-lifecycle-events-v1, fabric-rendering-fluids-v1, fabric-command-api-v2, fabric-networking-api-v1, fabric-events-interaction-v0, fabric-gametest-api-v1, fabric-api-base, fabric-convention-tags-v1, fabric-biome-api-v1, fabric-resource-conditions-api-v1, fabric-renderer-api-v1, fabric-registry-sync-v0, fabric-rendering-v1, fabric-screen-handler-api-v1, fabric-rendering-data-attachment-v1, fabric-particles-v1, fabric-blockrenderlayer-v1, fabric-screen-api-v1, fabric-models-v0, fabric-sound-api-v1, fabric-block-api-v1, fabric-key-binding-api-v1, fabric-commands-v0, fabric-events-lifecycle-v0, fabric-renderer-indigo, fabric-object-builder-api-v1, fabric-recipe-api-v1, fabricloader, fabric-block-view-api-v2, fabric-transitive-access-wideners-v1, fabric-data-generation-api-v1, fabric-rendering-v0, fabric-game-rule-api-v1, fabric-entity-events-v1, fabric-renderer-registries-v1, fabric-api-lookup-api-v1, modmenu, fabric-dimensions-v1, fabric-loot-api-v2, fabric-api, fabric-content-registries-v0, fabric-item-group-api-v1, fabric-command-api-v1, fabric-transfer-api-v1, fabric-item-api-v1, fabric-resource-loader-v0, bossesandmore, fabric-keybindings-v0, fabric-client-tags-api-v1, fabric-message-api-v1, fabric-containers-v0)
-[14:37:11] [Worker-Main-5/INFO] (Minecraft) Found unifont_all_no_pua-15.0.06.hex, loading
-[14:37:11] [Worker-Main-4/WARN] (Minecraft) Unable to load model: 'bossesandmore:topaz_clump#inventory' referenced from: bossesandmore:topaz_clump#inventory: java.io.FileNotFoundException: bossesandmore:models/item/topaz_clump.json
-[14:37:11] [Worker-Main-4/WARN] (Minecraft) Unable to load model: 'bossesandmore:ruby_clump#inventory' referenced from: bossesandmore:ruby_clump#inventory: java.io.FileNotFoundException: bossesandmore:models/item/ruby_clump.json
-[14:37:12] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.goat_horn.play
-[14:37:12] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[14:37:12] [Render thread/INFO] (Minecraft) OpenAL initialized on device MacBook Air Speakers
-[14:37:12] [Render thread/INFO] (Minecraft) Sound engine started
-[14:37:12] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
-[14:37:12] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
-[14:37:12] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[14:37:12] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[14:37:12] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
-[14:37:12] [Render thread/INFO] (Minecraft) Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
-[14:37:12] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[14:37:12] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[14:37:12] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[14:37:12] [Render thread/WARN] (Minecraft) Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[14:37:12] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
-[14:37:12] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[14:37:12] [Render thread/INFO] (Minecraft) Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[14:37:12] [Render thread/INFO] (Minecraft) Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
-[14:37:19] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[14:37:19] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test World]'/minecraft:overworld
-[14:37:19] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test World]'/minecraft:the_end
-[14:37:19] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test World]'/minecraft:the_nether
-[14:37:26] [Render thread/INFO] (Minecraft) Reloading ResourceManager: vanilla, fabric (fabric-mining-level-api-v1, fabric-model-loading-api-v1, fabric-crash-report-info-v1, fabric-lifecycle-events-v1, fabric-rendering-fluids-v1, fabric-command-api-v2, fabric-networking-api-v1, fabric-events-interaction-v0, fabric-gametest-api-v1, fabric-api-base, fabric-convention-tags-v1, fabric-biome-api-v1, fabric-resource-conditions-api-v1, fabric-renderer-api-v1, fabric-registry-sync-v0, fabric-rendering-v1, fabric-screen-handler-api-v1, fabric-rendering-data-attachment-v1, fabric-particles-v1, fabric-blockrenderlayer-v1, fabric-screen-api-v1, fabric-models-v0, fabric-sound-api-v1, fabric-block-api-v1, fabric-key-binding-api-v1, fabric-commands-v0, fabric-events-lifecycle-v0, fabric-renderer-indigo, fabric-object-builder-api-v1, fabric-recipe-api-v1, fabricloader, fabric-block-view-api-v2, fabric-transitive-access-wideners-v1, fabric-data-generation-api-v1, fabric-rendering-v0, fabric-game-rule-api-v1, fabric-entity-events-v1, fabric-renderer-registries-v1, fabric-api-lookup-api-v1, modmenu, fabric-dimensions-v1, fabric-loot-api-v2, fabric-api, fabric-content-registries-v0, fabric-item-group-api-v1, fabric-command-api-v1, fabric-transfer-api-v1, fabric-item-api-v1, fabric-resource-loader-v0, bossesandmore, fabric-keybindings-v0, fabric-client-tags-api-v1, fabric-message-api-v1, fabric-containers-v0)
-[14:37:26] [Worker-Main-7/INFO] (Minecraft) Found unifont_all_no_pua-15.0.06.hex, loading
-[14:37:26] [Worker-Main-2/WARN] (Minecraft) Unable to load model: 'bossesandmore:topaz_clump#inventory' referenced from: bossesandmore:topaz_clump#inventory: java.io.FileNotFoundException: bossesandmore:models/item/topaz_clump.json
-[14:37:26] [Worker-Main-2/WARN] (Minecraft) Unable to load model: 'bossesandmore:ruby_clump#inventory' referenced from: bossesandmore:ruby_clump#inventory: java.io.FileNotFoundException: bossesandmore:models/item/ruby_clump.json
-[14:37:27] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.goat_horn.play
-[14:37:27] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[14:37:27] [Render thread/INFO] (Minecraft) OpenAL initialized on device MacBook Air Speakers
-[14:37:27] [Render thread/INFO] (Minecraft) Sound engine started
-[14:37:27] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
-[14:37:27] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
-[14:37:27] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[14:37:27] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[14:37:27] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
-[14:37:27] [Render thread/INFO] (Minecraft) Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
-[14:37:27] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[14:37:27] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[14:37:27] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[14:37:27] [Render thread/WARN] (Minecraft) Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[14:37:27] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
-[14:37:27] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[14:37:27] [Render thread/INFO] (Minecraft) Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[14:37:27] [Render thread/INFO] (Minecraft) Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
-[14:37:53] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[14:37:53] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test World]'/minecraft:overworld
-[14:37:53] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test World]'/minecraft:the_end
-[14:37:53] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test World]'/minecraft:the_nether
-[14:38:03] [Render thread/INFO] (Minecraft) Reloading ResourceManager: vanilla, fabric (fabric-mining-level-api-v1, fabric-model-loading-api-v1, fabric-crash-report-info-v1, fabric-lifecycle-events-v1, fabric-rendering-fluids-v1, fabric-command-api-v2, fabric-networking-api-v1, fabric-events-interaction-v0, fabric-gametest-api-v1, fabric-api-base, fabric-convention-tags-v1, fabric-biome-api-v1, fabric-resource-conditions-api-v1, fabric-renderer-api-v1, fabric-registry-sync-v0, fabric-rendering-v1, fabric-screen-handler-api-v1, fabric-rendering-data-attachment-v1, fabric-particles-v1, fabric-blockrenderlayer-v1, fabric-screen-api-v1, fabric-models-v0, fabric-sound-api-v1, fabric-block-api-v1, fabric-key-binding-api-v1, fabric-commands-v0, fabric-events-lifecycle-v0, fabric-renderer-indigo, fabric-object-builder-api-v1, fabric-recipe-api-v1, fabricloader, fabric-block-view-api-v2, fabric-transitive-access-wideners-v1, fabric-data-generation-api-v1, fabric-rendering-v0, fabric-game-rule-api-v1, fabric-entity-events-v1, fabric-renderer-registries-v1, fabric-api-lookup-api-v1, modmenu, fabric-dimensions-v1, fabric-loot-api-v2, fabric-api, fabric-content-registries-v0, fabric-item-group-api-v1, fabric-command-api-v1, fabric-transfer-api-v1, fabric-item-api-v1, fabric-resource-loader-v0, bossesandmore, fabric-keybindings-v0, fabric-client-tags-api-v1, fabric-message-api-v1, fabric-containers-v0)
-[14:38:03] [Worker-Main-2/INFO] (Minecraft) Found unifont_all_no_pua-15.0.06.hex, loading
-[14:38:03] [Worker-Main-8/WARN] (Minecraft) Unable to load model: 'bossesandmore:topaz_clump#inventory' referenced from: bossesandmore:topaz_clump#inventory: java.io.FileNotFoundException: bossesandmore:models/item/topaz_clump.json
-[14:38:03] [Worker-Main-8/WARN] (Minecraft) Unable to load model: 'bossesandmore:ruby_clump#inventory' referenced from: bossesandmore:ruby_clump#inventory: java.io.FileNotFoundException: bossesandmore:models/item/ruby_clump.json
-[14:38:03] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:item.goat_horn.play
-[14:38:03] [Render thread/WARN] (Minecraft) Missing sound for event: minecraft:entity.goat.screaming.horn_break
-[14:38:03] [Render thread/INFO] (Minecraft) OpenAL initialized on device MacBook Air Speakers
-[14:38:03] [Render thread/INFO] (Minecraft) Sound engine started
-[14:38:03] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/blocks.png-atlas
-[14:38:03] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/signs.png-atlas
-[14:38:03] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/shield_patterns.png-atlas
-[14:38:03] [Render thread/INFO] (Minecraft) Created: 512x512x4 minecraft:textures/atlas/banner_patterns.png-atlas
-[14:38:03] [Render thread/INFO] (Minecraft) Created: 1024x1024x4 minecraft:textures/atlas/armor_trims.png-atlas
-[14:38:03] [Render thread/INFO] (Minecraft) Created: 128x64x4 minecraft:textures/atlas/decorated_pot.png-atlas
-[14:38:03] [Render thread/INFO] (Minecraft) Created: 256x256x4 minecraft:textures/atlas/chest.png-atlas
-[14:38:03] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/shulker_boxes.png-atlas
-[14:38:03] [Render thread/INFO] (Minecraft) Created: 512x256x4 minecraft:textures/atlas/beds.png-atlas
-[14:38:03] [Render thread/WARN] (Minecraft) Shader rendertype_entity_translucent_emissive could not find sampler named Sampler2 in the specified shader program.
-[14:38:04] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/particles.png-atlas
-[14:38:04] [Render thread/INFO] (Minecraft) Created: 256x256x0 minecraft:textures/atlas/paintings.png-atlas
-[14:38:04] [Render thread/INFO] (Minecraft) Created: 128x128x0 minecraft:textures/atlas/mob_effects.png-atlas
-[14:38:04] [Render thread/INFO] (Minecraft) Created: 1024x512x0 minecraft:textures/atlas/gui.png-atlas
-[14:38:07] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[14:38:07] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test World]'/minecraft:overworld
-[14:38:07] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test World]'/minecraft:the_end
-[14:38:07] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test World]'/minecraft:the_nether
-[14:38:10] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[14:38:10] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test World]'/minecraft:overworld
-[14:38:10] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test World]'/minecraft:the_end
-[14:38:10] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test World]'/minecraft:the_nether
-[14:38:22] [Server thread/INFO] (Minecraft) [Player736: Summoned new Pillar]
-[14:38:22] [Render thread/INFO] (Minecraft) [System] [CHAT] Summoned new Pillar
-[14:38:37] [Render thread/INFO] (Minecraft) Loaded 31 advancements
-[14:38:41] [Render thread/INFO] (Minecraft) Loaded 31 advancements
-[14:38:42] [Render thread/INFO] (Minecraft) Loaded 31 advancements
-[14:38:43] [Render thread/INFO] (Minecraft) Loaded 40 advancements
-[14:38:53] [Render thread/WARN] (Minecraft) Unable to play empty soundEvent: minecraft:entity.salmon.ambient
-[14:39:50] [Server thread/INFO] (Minecraft) Saving and pausing game...
-[14:39:50] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test World]'/minecraft:overworld
-[14:39:50] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test World]'/minecraft:the_end
-[14:39:50] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test World]'/minecraft:the_nether
-[14:39:51] [Server thread/INFO] (Minecraft) Player736 lost connection: Disconnected
-[14:39:51] [Server thread/INFO] (Minecraft) Player736 left the game
-[14:39:51] [Server thread/INFO] (Minecraft) Stopping singleplayer server as player logged out
-[14:39:51] [Server thread/INFO] (Minecraft) Stopping server
-[14:39:51] [Server thread/INFO] (Minecraft) Saving players
-[14:39:51] [Server thread/INFO] (Minecraft) Saving worlds
-[14:39:51] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test World]'/minecraft:overworld
-[14:39:52] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test World]'/minecraft:the_end
-[14:39:52] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test World]'/minecraft:the_nether
-[14:39:52] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (Test World): All chunks are saved
-[14:39:52] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[14:39:52] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[14:39:52] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage: All dimensions are saved
-[14:39:52] [Render thread/INFO] (Minecraft) Stopping!
+[09:24:51] [Render thread/ERROR] (Minecraft) Parsing error loading recipe bossesandmore:endisite_ingot_from_gem_refining
+com.google.gson.JsonParseException: No key tag in MapLike[{"item1":"bossesandmore:endesite_clump","item2":"minecraft:netherite_ingot"}]; No key item in MapLike[{"item1":"bossesandmore:endesite_clump","item2":"minecraft:netherite_ingot"}]; Not a json array: {"item1":"bossesandmore:endesite_clump","item2":"minecraft:netherite_ingot"}; Input does not contain a key [fabric:type]: MapLike[{"item1":"bossesandmore:endesite_clump","item2":"minecraft:netherite_ingot"}]; Recipe has no ingredients!
+	at net.minecraft.util.Util.getResult(Util.java:1066) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.deserialize(RecipeManager.java:251) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:69) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.recipe.RecipeManager.apply(RecipeManager.java:57) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.resource.SinglePreparationResourceReloader.method_18790(SinglePreparationResourceReloader.java:26) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at java.util.concurrent.CompletableFuture$UniAccept.tryFire(CompletableFuture.java:718) ~[?:?]
+	at java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482) ~[?:?]
+	at net.minecraft.resource.SimpleResourceReload.method_18365(SimpleResourceReload.java:98) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.executeTask(ThreadExecutor.java:138) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.thread.ReentrantThreadExecutor.executeTask(ReentrantThreadExecutor.java:24) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTask(ThreadExecutor.java:112) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.runTasks(ThreadExecutor.java:122) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.server.integrated.IntegratedServerLoader.load(IntegratedServerLoader.java:238) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.server.integrated.IntegratedServerLoader.createSaveLoader(IntegratedServerLoader.java:160) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.server.integrated.IntegratedServerLoader.start(IntegratedServerLoader.java:249) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.server.integrated.IntegratedServerLoader.start(IntegratedServerLoader.java:72) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.start(WorldListWidget.java:625) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.play(WorldListWidget.java:507) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.client.gui.screen.world.WorldListWidget$WorldEntry.mouseClicked(WorldListWidget.java:433) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.client.gui.widget.EntryListWidget.mouseClicked(EntryListWidget.java:304) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.client.gui.ParentElement.mouseClicked(ParentElement.java:45) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.client.Mouse.method_1611(Mouse.java:92) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.client.gui.screen.Screen.wrapScreenError(Screen.java:451) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.client.Mouse.onMouseButton(Mouse.java:92) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.client.Mouse.method_22686(Mouse.java:184) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.util.thread.ThreadExecutor.execute(ThreadExecutor.java:88) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.client.Mouse.method_22684(Mouse.java:184) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at org.lwjgl.glfw.GLFWMouseButtonCallbackI.callback(GLFWMouseButtonCallbackI.java:43) ~[lwjgl-glfw-3.3.2.jar:build 13]
+	at org.lwjgl.system.JNI.invokeV(Native Method) ~[lwjgl-3.3.2.jar:build 13]
+	at org.lwjgl.glfw.GLFW.glfwWaitEventsTimeout(GLFW.java:3509) ~[lwjgl-glfw-3.3.2.jar:build 13]
+	at com.mojang.blaze3d.systems.RenderSystem.limitDisplayFPS(RenderSystem.java:207) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.render(MinecraftClient.java:1297) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.client.MinecraftClient.run(MinecraftClient.java:858) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.minecraft.client.main.Main.main(Main.java:228) ~[minecraft-merged-4eb9d75495-1.20.2-net.fabricmc.yarn.1_20_2.1.20.2+build.4-v2.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:470) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotClient.main(KnotClient.java:23) ~[fabric-loader-0.15.11.jar:?]
+	at net.fabricmc.devlaunchinjector.Main.main(Main.java:86) ~[dev-launch-injector-0.2.1+build.8.jar:?]
+[09:24:51] [Render thread/INFO] (Minecraft) Loaded 7 recipes
+[09:24:51] [Render thread/INFO] (Minecraft) Loaded 1274 advancements
+[09:24:52] [Render thread/INFO] (BiomeModificationImpl) Applied 0 biome modifications to 0 of 64 new biomes in 698.9 μs
+[09:24:52] [Server thread/INFO] (Minecraft) Starting integrated minecraft server version 1.20.2
+[09:24:52] [Server thread/INFO] (Minecraft) Generating keypair
+[09:24:53] [Server thread/INFO] (Minecraft) Preparing start region for dimension minecraft:overworld
+[09:24:55] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[09:24:55] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[09:24:55] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[09:24:55] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[09:24:55] [Render thread/INFO] (Minecraft) Preparing spawn area: 0%
+[09:24:56] [Render thread/INFO] (Minecraft) Preparing spawn area: 70%
+[09:24:56] [Render thread/INFO] (Minecraft) Time elapsed: 2595 ms
+[09:24:56] [Server thread/INFO] (Minecraft) Changing view distance to 12, from 10
+[09:24:56] [Server thread/INFO] (Minecraft) Changing simulation distance to 13, from 0
+[09:24:56] [Server thread/INFO] (Minecraft) Player80[local:E:8321fa76] logged in with entity id 66 at (1139.221111534621, 64.0, 785.472665158481)
+[09:24:56] [Server thread/INFO] (Minecraft) Player80 joined the game
+[09:24:57] [Render thread/INFO] (Minecraft) Loaded 10 advancements
+[09:25:13] [Server thread/INFO] (Minecraft) Saving and pausing game...
+[09:25:13] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test World]'/minecraft:overworld
+[09:25:13] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test World]'/minecraft:the_nether
+[09:25:13] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test World]'/minecraft:the_end
+[09:25:14] [Server thread/INFO] (Minecraft) Player80 lost connection: Disconnected
+[09:25:14] [Server thread/INFO] (Minecraft) Player80 left the game
+[09:25:14] [Server thread/INFO] (Minecraft) Stopping singleplayer server as player logged out
+[09:25:14] [Server thread/INFO] (Minecraft) Stopping server
+[09:25:14] [Server thread/INFO] (Minecraft) Saving players
+[09:25:14] [Server thread/INFO] (Minecraft) Saving worlds
+[09:25:15] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test World]'/minecraft:overworld
+[09:25:15] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test World]'/minecraft:the_nether
+[09:25:15] [Server thread/INFO] (Minecraft) Saving chunks for level 'ServerLevel[Test World]'/minecraft:the_end
+[09:25:15] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (Test World): All chunks are saved
+[09:25:15] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[09:25:15] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[09:25:15] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage: All dimensions are saved
+[09:25:17] [Render thread/INFO] (Minecraft) Stopping!

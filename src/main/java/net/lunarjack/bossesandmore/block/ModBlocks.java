@@ -3,6 +3,7 @@ package net.lunarjack.bossesandmore.block;
 import net.fabricmc.fabric.api.item.v1.FabricItemSettings;
 import net.fabricmc.fabric.api.object.builder.v1.block.FabricBlockSettings;
 import net.lunarjack.bossesandmore.BossesAndMore;
+import net.lunarjack.bossesandmore.block.custom.GemRefineryBlock;
 import net.minecraft.block.*;
 import net.minecraft.entity.effect.StatusEffects;
 import net.minecraft.item.BlockItem;
@@ -30,6 +31,7 @@ public class ModBlocks {
             new Block(FabricBlockSettings.copyOf(Blocks.OBSIDIAN).luminance(12)));
     public static final Block ANCIENT_OAK_PLANKS = registerBlock("ancient_oak_planks", new Block(FabricBlockSettings.copyOf(Blocks.OAK_PLANKS)));
     public static final Block ORANGE_CLOTH = registerBlock("orange_cloth", new Block(FabricBlockSettings.copyOf(Blocks.ORANGE_WOOL)));
+    public static final Block GEM_REFINERY = registerBlock("gem_refinery", new GemRefineryBlock(FabricBlockSettings.copyOf(Blocks.IRON_BLOCK).nonOpaque()));
 
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);

@@ -47,5 +47,7 @@
 
   "block.bossesandmore.orange_cloth": "Orange Cloth",
 
-  "entity.bossesandmore.pillar": "Pillar"
+  "entity.bossesandmore.pillar": "Pillar",
+
+  "block.bossesandmore.gem_refinery": "Gem Refinery"
 }

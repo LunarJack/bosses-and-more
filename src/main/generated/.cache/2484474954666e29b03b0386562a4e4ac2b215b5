@@ -1,9 +1,9 @@
-// 1.20.2	2024-07-18T11:17:20.912417	Bosses And More/Block Loot Tables
+// 1.20.2	2024-07-20T14:27:48.811608	Bosses And More/Block Loot Tables
 d8590a5f998a0e6b980f235206d7a9cde881f912 data/bossesandmore/loot_tables/blocks/orange_cloth.json
 71643e43193072ed0d34685537bb206b031cc1f0 data/bossesandmore/loot_tables/blocks/full_grass_block.json
 5ba03a1a5f8f73a992804ac2ad59fbcc8affa890 data/bossesandmore/loot_tables/blocks/potted_last_rose.json
-5a71cd37a4050d5539a07f5235df3a339a510db0 data/bossesandmore/loot_tables/blocks/ancient_oak_planks.json
 e0e8059558e71975f99689725c5e2c8e85ae112e data/bossesandmore/loot_tables/blocks/endisite.json
+5a71cd37a4050d5539a07f5235df3a339a510db0 data/bossesandmore/loot_tables/blocks/ancient_oak_planks.json
 363d0b81f4d3af836394163a73f3961d6e7ecfdb data/bossesandmore/loot_tables/blocks/red_cloth.json
 b993d3c1e7565717d9b10c726572e6b5bbc8c0e8 data/bossesandmore/loot_tables/blocks/last_rose.json
 eb822a29cc3e4b09566ccc7c0d1eddb209938d6d data/bossesandmore/loot_tables/blocks/pillar_shell.json

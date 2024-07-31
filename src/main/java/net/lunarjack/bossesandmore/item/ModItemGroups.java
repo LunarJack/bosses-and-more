@@ -37,6 +37,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.ANCIENT_OAK_PLANKS);
                         entries.add(ModBlocks.ORANGE_CLOTH);
                         entries.add(ModBlocks.ENDISITE);
+                        entries.add(ModBlocks.GEM_REFINERY);
 
                     }).build());
 

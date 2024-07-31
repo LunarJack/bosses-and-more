@@ -26,6 +26,7 @@ public class ModModelProvider extends FabricModelProvider {
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.RED_CLOTH);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ANCIENT_OAK_PLANKS);
         blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.ORANGE_CLOTH);
+        blockStateModelGenerator.registerSimpleState(ModBlocks.GEM_REFINERY);
     }
 
     @Override

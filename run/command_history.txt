@@ -10,3 +10,4 @@
 /summon minecraft:villager
 /time set day
 /summon bossesandmore:pillar
+/time set day

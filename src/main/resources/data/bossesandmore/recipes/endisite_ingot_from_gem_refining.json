@@ -1,0 +1,13 @@
+{
+"type": "bossesandmore:gem_refining",
+  "ingredients": [
+    {
+      "item1": "bossesandmore:endesite_clump",
+      "item2": "minecraft:netherite_ingot"
+    }
+  ],
+  "output":
+    {
+    "item": "bossesandmore:endesite_ingot"
+    }
+}

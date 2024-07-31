@@ -9,6 +9,10 @@ import net.lunarjack.bossesandmore.entity.ModEntities;
 import net.lunarjack.bossesandmore.entity.client.ModModelLayers;
 import net.lunarjack.bossesandmore.entity.client.PillarModel;
 import net.lunarjack.bossesandmore.entity.client.PillarRenderer;
+import net.lunarjack.bossesandmore.screen.GemRefineryScreen;
+import net.lunarjack.bossesandmore.screen.GemRefiningScreenHandler;
+import net.lunarjack.bossesandmore.screen.ModScreenHandlers;
+import net.minecraft.client.gui.screen.ingame.HandledScreens;
 import net.minecraft.client.render.RenderLayer;
 
 
@@ -21,5 +25,6 @@ public class BossesAndMoreClient implements ClientModInitializer {
         BlockRenderLayerMap.INSTANCE.putBlock(ModBlocks.POTTED_BLUE_ROSE, RenderLayer.getCutout());
         EntityRendererRegistry.register(ModEntities.PILLAR, PillarRenderer::new);
         EntityModelLayerRegistry.registerModelLayer(ModModelLayers.PILLAR, PillarModel::getTexturedModelData);
+        HandledScreens.register(ModScreenHandlers.GEM_REFINING_SCREEN_HANDLER, GemRefineryScreen::new);
     }
 }
